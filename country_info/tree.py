@@ -53,6 +53,52 @@ class Tree:
         print(node.data)
         self.show_tree(node.right)
 
+    def __del_leaf(self, s, p):
+        if p.left == s:
+            p.left = None
+        elif p.right == s:
+            p.right = None
+
+    def __del_one_child(self, s, p):
+        if p.left == s:
+            if s.left is None:
+                p.left = s.right
+            elif s.right is None:
+                p.left = s.left
+
+        if p.right == s:
+            if s.left is None:
+                p.right = s.right
+
+            elif s.right is None:
+                p.right = s.left
+
+    def __find_min(self, node, parent):
+        if node.left:
+            return self.__find_min(node.left, node)
+
+        return node, parent
+
+
+
+    def del_node(self, key):
+        s, p, fl_find = self.__find(self.root, None, key)
+
+        if not fl_find:
+            return None
+
+        if s.left is None and s.right is None:
+            self.__del_leaf(s, p)
+
+        elif s.left is None or s.right is None:
+            self.__del_one_child(s, p)
+
+        else:
+            sr, pr, = self.__find_min(s.right, s)
+            s.data = sr.data
+            self.__del_one_child(sr, pr)
+
+
 
 v = [10, 5, 7, 16, 13, 2, 20]
 t = Tree()
@@ -60,4 +106,7 @@ t = Tree()
 for x in v:
     t.append(Node(x))
 
+t.show_tree(t.root)
+print()
+t.del_node(5)
 t.show_tree(t.root)
