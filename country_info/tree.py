@@ -45,6 +45,22 @@ class Tree:
 
         return obj
 
+    def show_wide_tree(self, node):
+        if node is None:
+            return
+
+        v = [node]
+        while v:
+            vn = []
+            for x in v:
+                print(x.data, end=" ")
+                if x.left:
+                    vn += [x.left]
+                if x.right:
+                    vn += [x.right]
+            print()
+            v = vn
+
     def show_tree(self, node):
         if node is None:
             return
@@ -109,4 +125,4 @@ for x in v:
 t.show_tree(t.root)
 print()
 t.del_node(5)
-t.show_tree(t.root)
+t.show_wide_tree(t.root)
