@@ -3,6 +3,8 @@ from tkinter import messagebox
 from random import random
 
 clicks = 0
+time_elapsed = 0
+after_id = None
 
 root = Tk()
 root.title("Random Clicker")
@@ -19,7 +21,21 @@ def change_pos():
 
 
 def tick_timer():
-    pass
+    global time_elapsed, after_id
+    time_elapsed += 0.1
+
+    minutes = int(time_elapsed // 60)
+    seconds = int(time_elapsed % 60)
+    milliseconds = int((time_elapsed - int(time_elapsed)) * 10)
+
+    timer_label.configure(text=f"{minutes:02}:{seconds:02}:{milliseconds:02}")
+
+    if time_elapsed >= 7:
+        end_game()
+    else:
+        after_id = root.after(100, tick_timer)
+
+
 
 
 
@@ -36,7 +52,13 @@ def start_game():
 
 
 def end_game():
-    pass
+    global clicks, time_elapsed, after_id
+    btn_click.place_forget()
+    messagebox.showinfo("Game over!", f"You clicked {clicks} times in 10 seconds!")
+    clicks = 0
+    time_elapsed = 0
+    after_id = None
+    btn_start.place(relx=0.5, rely=0.4, anchor=CENTER)
 
 
 
