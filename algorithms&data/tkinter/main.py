@@ -208,7 +208,3 @@ from tkinter import ttk
 # print(f"longest word: {longest_word}")
 
 
-
-
-
-

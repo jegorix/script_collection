@@ -1,0 +1,2 @@
+API_TOKEN = "60df5caa0b880580fcc637509dbe92ac"
+KELVIN =  273.15

@@ -35,17 +35,16 @@ for i, image_link in enumerate(images_links):
     # encoded_url = f"{folder}/{quote(filename)}"
     #
     # full_img_url = urljoin(main_link, encoded_url)
-    # print(full_img_url)
+
 
     #download image
     image_bytes = requests.get(full_img_url, headers=header).content
 
-    # with open(f"{path_img}/t_{image_number}.jpg", "wb") as file:
     with open(f"{path_img}/{result_names[i]}.jpg", "wb") as file:
         file.write(image_bytes)
 
     image_number += 1
-    print(f"Image №{image_number} successfully downloaded!")
+    print(f"Image №{image_number} - '{result_names[i]}' - successfully downloaded!")
 
 
 

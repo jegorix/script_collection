@@ -1,0 +1,2 @@
+Name: Alice; Grades: 9, 10; Average grade: 9.5
+Name: Bob; Grades: 4; Average grade: 4.0
