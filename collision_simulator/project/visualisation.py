@@ -1,12 +1,15 @@
 import pygame
 import sys
 
+FONT_PATH = '/Users/macbook/PycharmProjects/scripts_edu/collision_simulator/fonts/FiraCode-Regular.ttf'
+
 
 def draw_velocity_text(screen, font, body, HEIGHT, name, y_offset=30, x = 0, y = 0, padding = 10):
     lines = [
         f'{name} body:',
         f'Weight: {body.mass}kg',
-        f'Speed: {body.velocity // 10:.2f}m/s'
+        f'Speed: {body.velocity // 10:.2f}m/s',
+        f'Collisions: {body.collisions}'
     ]
     
     # comfortable positioning -> make 2 frames for info block
@@ -38,7 +41,7 @@ def show_interface(body1, body2):
     WIDTH, HEIGHT = (700, 400)
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
     clock = pygame.time.Clock()
-    font = pygame.font.SysFont('consolas', 18, bold=True)
+    font = pygame.font.SysFont(FONT_PATH, 25, bold=False)
     
     running = True
     while running:
@@ -64,7 +67,7 @@ def show_interface(body1, body2):
         pygame.draw.circle(screen, body2.color, (int(body2.position), HEIGHT // 2), body2.radius)
         
         draw_velocity_text(screen, font, body1, HEIGHT, name='Left', x=20, y=20)
-        draw_velocity_text(screen, font, body2, HEIGHT, name = 'Right', x=WIDTH-205, y=20)
+        draw_velocity_text(screen, font, body2, HEIGHT, name = 'Right', x=WIDTH-180, y=20)
             
         pygame.display.flip()
         

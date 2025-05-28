@@ -13,6 +13,7 @@ def main():
             self.position = position
             self.radius = (mass * radius) // 2
             self.color = color
+            self.collisions = 0
             
         def move(self, dt):
             self.position += self.velocity * dt
@@ -20,6 +21,7 @@ def main():
         def bounce_off_walls(self, screen_width):
             if self.position - self.radius <= 0 or self.position + self.radius >= screen_width:
                 self.velocity *= -1
+                self.collisions += 1
         
         def collide(self, other):
             m1, v1 = self.mass, self.velocity
@@ -29,7 +31,11 @@ def main():
             v2_new = ((m2 - m1) * v2 + 2*m1*v1) / (m1 + m2)
             
             self.velocity = v1_new
+            self.collisions += 1
+            
             other.velocity = v2_new
+            other.collisions += 1
+            
             
 
 
