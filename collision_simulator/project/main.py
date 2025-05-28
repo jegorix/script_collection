@@ -2,16 +2,15 @@ from validators import get_float, get_positive_float
 from visualisation import show_interface
 
 
-
 def main():
     print("Two body collision simulator")
 
     class Body:
-        def __init__(self, mass, velocity, position, radius=5, color = (255,0,0)):
+        def __init__(self, mass, velocity, position, color = (255,0,0), k=1):
             self.mass = mass
             self.velocity = velocity
             self.position = position
-            self.radius = (mass * radius) // 2
+            self.radius = int(10 + mass * 2) * k
             self.color = color
             self.collisions = 0
             
@@ -39,20 +38,26 @@ def main():
             
 
 
+
+
     print("\nEnter the parametr of the two object to simulate collision")
-
-    # m1 = get_positive_float("Weight of the first object: ")
-    # v1 = get_float("Velocity of the first object: ")
-    m1 = 10
-    v1 = 25
-     
+    
+    print("\nEnter manually-(1) of set default values-(any key)?:")
+    choose = input()
+    if(choose == "1"):
+        m1 = get_positive_float("Weight of the first object: ")
+        v1 = get_float("Velocity of the first object: ")
+        m2 = get_positive_float("Weight of the second object: ")
+        v2 = get_float("Velocity of the second object: ")
+    
+    else:  
+        m1 = 10
+        v1 = 25
+        m2 = 15
+        v2 = 18
+    
     body_1  = Body(mass=m1, velocity=v1 * 10, position=100)
-
-    # m2 = get_positive_float("Weight of the second object: ")
-    # v2 = get_float("Velocity of the second object: ")
-    m2 = 20
-    v2 = 18
-    body_2 = Body(mass=m2, velocity=-v2 * 10, color=(0,0,255), position=500)
+    body_2 = Body(mass=m2, velocity=-v2 * 10, position=500, k = 1.75)
     
     show_interface(body_1, body_2)
 

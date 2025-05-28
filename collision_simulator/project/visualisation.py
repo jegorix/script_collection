@@ -2,9 +2,27 @@ import pygame
 import sys
 
 FONT_PATH = '/Users/macbook/PycharmProjects/scripts_edu/collision_simulator/fonts/FiraCode-Regular.ttf'
+BACKGROUND_COLOR = (245, 245, 245)
+pygame.init()
+WIDTH, HEIGHT = (700, 400)
+
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+background_image = pygame.image.load("/Users/macbook/PycharmProjects/scripts_edu/collision_simulator/image/space.jpg")
+background_image = pygame.transform.scale(background_image, (WIDTH, HEIGHT))
 
 
-def draw_velocity_text(screen, font, body, HEIGHT, name, y_offset=30, x = 0, y = 0, padding = 10):
+object_mars_image = pygame.image.load("/Users/macbook/PycharmProjects/scripts_edu/collision_simulator/image/mars.svg").convert_alpha()
+object_saturno_image = pygame.image.load("/Users/macbook/PycharmProjects/scripts_edu/collision_simulator/image/saturno.svg").convert_alpha()
+
+
+
+def draw(body, screen, path,):
+    image = pygame.transform.scale(path, (body.radius * 2, body.radius * 2))
+    rect = image.get_rect(center=(int(body.position), 200))
+    screen.blit(image, rect)
+
+
+def draw_velocity_text(screen, font, body, name, x = 0, y = 0, padding = 10):
     lines = [
         f'{name} body:',
         f'Weight: {body.mass}kg',
@@ -37,9 +55,6 @@ def draw_velocity_text(screen, font, body, HEIGHT, name, y_offset=30, x = 0, y =
     
 
 def show_interface(body1, body2):
-    pygame.init()
-    WIDTH, HEIGHT = (700, 400)
-    screen = pygame.display.set_mode((WIDTH, HEIGHT))
     clock = pygame.time.Clock()
     font = pygame.font.SysFont(FONT_PATH, 25, bold=False)
     
@@ -58,16 +73,22 @@ def show_interface(body1, body2):
         body1.bounce_off_walls(WIDTH)
         body2.bounce_off_walls(WIDTH)
         
-        if abs(body1.position - body2.position) <= body1.radius + body2.radius:
+        distance = abs(body1.position - body2.position)
+        min_distance = (body1.radius + body2.radius)
+        if distance <= min_distance:
             body1.collide(body2)
             
-        screen.fill((255, 255, 255))
+        # screen.fill(BACKGROUND_COLOR)
+        screen.blit(background_image, (0,0))
         
-        pygame.draw.circle(screen, body1.color, (int(body1.position), HEIGHT // 2), body1.radius) # replace HEIGHT with body1.radius
-        pygame.draw.circle(screen, body2.color, (int(body2.position), HEIGHT // 2), body2.radius)
+        # pygame.draw.circle(screen, body1.color, (int(body1.position), HEIGHT // 2), body1.radius) # replace HEIGHT with body1.radius
+        # pygame.draw.circle(screen, body2.color, (int(body2.position), HEIGHT // 2), body2.radius)
         
-        draw_velocity_text(screen, font, body1, HEIGHT, name='Left', x=20, y=20)
-        draw_velocity_text(screen, font, body2, HEIGHT, name = 'Right', x=WIDTH-180, y=20)
+        draw(body1, screen, object_mars_image)
+        draw(body2, screen, object_saturno_image)
+        
+        draw_velocity_text(screen, font, body1, name='Left', x=20, y=20)
+        draw_velocity_text(screen, font, body2, name = 'Right', x=WIDTH-180, y=20)
             
         pygame.display.flip()
         

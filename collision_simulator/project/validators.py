@@ -10,7 +10,7 @@ def get_float(promt):
 
 def get_positive_float(promt):
     while True:
-        value = float(input(promt))
+        value = get_float(promt)
         if value > 0:
             return value
         print("Incorrect! Weight should be greater than zero!")
