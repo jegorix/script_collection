@@ -35,12 +35,17 @@ def main():
 
     print("\nEnter the parametr of the two object to simulate collision")
 
-    m1 = get_positive_float("Weight of the first object: ")
-    v1 = get_float("Velocity of the first object:")
+    # m1 = get_positive_float("Weight of the first object: ")
+    # v1 = get_float("Velocity of the first object: ")
+    m1 = 10
+    v1 = 25
+     
     body_1  = Body(mass=m1, velocity=v1 * 10, position=100)
 
-    m2 = get_positive_float("Weight of the second object: ")
-    v2 = get_float("Velocity of the second object:")
+    # m2 = get_positive_float("Weight of the second object: ")
+    # v2 = get_float("Velocity of the second object: ")
+    m2 = 20
+    v2 = 18
     body_2 = Body(mass=m2, velocity=-v2 * 10, color=(0,0,255), position=500)
     
     show_interface(body_1, body_2)
