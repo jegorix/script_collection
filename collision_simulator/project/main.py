@@ -40,21 +40,29 @@ def main():
 
 
 
-    print("\nEnter the parametr of the two object to simulate collision")
+    # print("\nEnter the parametr of the two object to simulate collision")
     
-    print("\nEnter manually-(1) of set default values-(any key)?:")
-    choose = input()
-    if(choose == "1"):
-        m1 = get_positive_float("Weight of the first object: ")
-        v1 = get_float("Velocity of the first object: ")
-        m2 = get_positive_float("Weight of the second object: ")
-        v2 = get_float("Velocity of the second object: ")
+    # print("\nEnter manually-(1) of set default values-(any key)?:")
+    # choose = input()
+    # if(choose == "1"):
+    #     m1 = get_positive_float("Weight of the first object: ")
+    #     v1 = get_float("Velocity of the first object: ")
+    #     m2 = get_positive_float("Weight of the second object: ")
+    #     v2 = get_float("Velocity of the second object: ")
     
-    else:  
-        m1 = 10
-        v1 = 25
-        m2 = 15
-        v2 = 18
+    # else:  
+    #     m1 = 10
+    #     v1 = 25
+    #     m2 = 15
+    #     v2 = 18
+    
+    
+    m1 = 10
+    v1 = 25
+    m2 = 15
+    v2 = 18
+    
+    
     
     body_1  = Body(mass=m1, velocity=v1 * 10, position=100)
     body_2 = Body(mass=m2, velocity=-v2 * 10, position=500, k = 1.75)

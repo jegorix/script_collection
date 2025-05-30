@@ -4,6 +4,8 @@ import sys
 FONT_PATH = '/Users/macbook/PycharmProjects/scripts_edu/collision_simulator/fonts/FiraCode-Regular.ttf'
 ICON_PATH = '/Users/macbook/PycharmProjects/scripts_edu/collision_simulator/image/ico.svg'
 BACKGROUND_COLOR = (245, 245, 245)
+GRAY = (200, 200, 200)
+DARK_GRAY = (150, 150, 150)
 pygame.init()
 WIDTH, HEIGHT = (700, 400)
 pygame.display.set_caption("Collision Simulator")
@@ -20,11 +22,13 @@ pygame.display.set_icon(ico_image)
 object_mars_image = pygame.image.load("/Users/macbook/PycharmProjects/scripts_edu/collision_simulator/image/mars.svg").convert_alpha()
 object_saturno_image = pygame.image.load("/Users/macbook/PycharmProjects/scripts_edu/collision_simulator/image/saturno.svg").convert_alpha()
 
+button_rect = pygame.Rect(30, 156, 80, 30)
+
 
 
 def draw(body, screen, path,):
     image = pygame.transform.scale(path, (body.radius * 2, body.radius * 2))
-    rect = image.get_rect(center=(int(body.position), 200))
+    rect = image.get_rect(center=(int(body.position), HEIGHT // 2 + 100))
     screen.blit(image, rect)
 
 
@@ -72,6 +76,13 @@ def show_interface(body1, body2):
             if event.type == pygame.QUIT:
                 running = False
                 # quit()
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                if button_rect.collidepoint(event.pos):
+                   body1.velocity += 100 if body1.velocity >= 0 else -100
+        
+
+                
+                
                 
         body1.move(dt)
         body2.move(dt)
@@ -92,6 +103,22 @@ def show_interface(body1, body2):
         
         draw(body1, screen, object_mars_image)
         draw(body2, screen, object_saturno_image)
+        
+        
+        
+        mouse_pos = pygame.mouse.get_pos()
+        if button_rect.collidepoint(mouse_pos):
+            pygame.draw.rect(screen, DARK_GRAY, button_rect)
+        else:
+            pygame.draw.rect(screen, GRAY, button_rect)
+            
+        font = pygame.font.SysFont(FONT_PATH, 36)
+        text_surface = font.render("+10m/s", True, (255,255,255))
+        text_rect = text_surface.get_rect(center=button_rect.center)
+        screen.blit(text_surface, text_rect)
+        
+        
+        
         
         draw_velocity_text(screen, font, body1, name='Left', x=20, y=20)
         draw_velocity_text(screen, font, body2, name = 'Right', x=WIDTH-180, y=20)
