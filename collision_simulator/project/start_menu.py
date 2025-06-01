@@ -20,18 +20,35 @@ color = color_inactive
 active = False
 text = ''
 
-action_font = pygame.font.SysFont(FONT_PATH, 54)
+
+action_font = pygame.font.SysFont(FONT_PATH, 36)
+
 actions_text = [
-    'Enter weight of the first object',
-    'Enter velocity of the first object',
-    'Enter weight of the second object',
-    'Enter velocity of the second object',  
+    'Enter weight of the first object:',
+    'Enter velocity of the first object:',
+    'Enter weight of the second object:',
+    'Enter velocity of the second object:', 
+    'Object data successfully readed!' 
 ]
+entered = 0
+
 
 
 cursor_visible = True
 cursor_timer = 0
 clock = pygame.time.Clock()
+
+def draw_action_text(count):
+    for index, text in enumerate(actions_text):
+        if index == count:
+            text_surface = action_font.render(text, True, (255, 255, 255))
+            screen.blit(text_surface, (WIDTH // 2 - 180, 30))
+        elif count >= len(actions_text):
+            text_surface = action_font.render(actions_text[-1], True, (255, 255, 255))
+            screen.blit(text_surface, (WIDTH // 2 - 180, 30))
+        
+            
+
 
 def handle_numbers(number):
     print(number * 10)
@@ -50,10 +67,18 @@ def draw_button(button, button_text):
     button_rect = button_text.get_rect(center=button.center)
     screen.blit(button_text, button_rect)
     
+    
+def draw_input_form(text):
+    text_input_box = font_input_box.render(text, True, (255, 255, 255))
+    screen.blit(text_input_box, (input_box.x + 30, input_box.y + 10))
+    input_box.w = max(200, text_input_box.get_width() + 60)
+    return text_input_box
+    
+    
 
 
 def simulator_menu():
-    global menu_running, color, text, active
+    global menu_running, color, text, active, entered
     
     while menu_running:  
         global cursor_timer, cursor_visible
@@ -89,6 +114,7 @@ def simulator_menu():
                 if active:
                     if event.key == pygame.K_RETURN:
                         if text.isdigit():
+                            entered += 1
                             handle_numbers(float(text))
                             text = ''
                         else:
@@ -101,16 +127,17 @@ def simulator_menu():
                             text += event.unicode                                     
                             
         screen.fill((30, 30, 30))
-        pygame.draw.rect(screen, color, input_box, border_radius=15)
+        draw_action_text(entered)
         
-        text_input_box = font_input_box.render(text, True, (255, 255, 255))
-        screen.blit(text_input_box, (input_box.x + 30, input_box.y + 10))
-        input_box.w = max(200, text_input_box.get_width() + 60)
+        if entered < 4:
+            pygame.draw.rect(screen, color, input_box, border_radius=15)
+            text_input_box = draw_input_form(text)
+            draw_cursor(active, cursor_visible, input_box, text_input_box)
+        else:
+            text_surface = action_font.render("You're ready to start!", True, (255, 255, 255))
+            screen.blit(text_surface, (input_box.x - 20, input_box.y))
         
-        draw_cursor(active, cursor_visible, input_box, text_input_box)
-        
-        
-        
+
         draw_button(start_button_rect, start_text)
         draw_button(exit_button_rect, exit_text)
     
