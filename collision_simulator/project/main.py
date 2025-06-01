@@ -1,5 +1,14 @@
 from validators import get_float, get_positive_float
 from visualisation import show_interface
+import sys
+import os
+
+
+BASE_DIR = getattr(sys, '_MEIPASS', os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+image_dir = os.path.join(BASE_DIR, "image")
+image_files = ['ico.svg', 'mars.svg', 'saturno.svg', 'space.jpg']
+image_paths = [os.path.join(image_dir, img) for img in image_files]
+font_path = os.path.join(BASE_DIR, "fonts", "FiraCode-Regular.ttf")
 
 
 def main():
