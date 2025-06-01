@@ -51,10 +51,10 @@ def buttons_operations(body1, body2, mouse_pos):
             body1.velocity += -100 if body1.velocity >= 0 else 100
             
         elif button_rect[0].collidepoint(mouse_pos) and button_name == 'increase_2':
-            body2.velocity += -100 if body1.velocity <= 0 else 100
+            body2.velocity += -100 if body2.velocity <= 0 else 100
             
         elif button_rect[0].collidepoint(mouse_pos) and button_name == 'decrease_2':
-            body2.velocity += 100 if body1.velocity <= 0 else -100 
+            body2.velocity += 100 if body2.velocity <= 0 else -100 
     
 
 
