@@ -20,22 +20,50 @@ color = color_inactive
 active = False
 text = ''
 
+action_font = pygame.font.SysFont(FONT_PATH, 54)
+actions_text = [
+    'Enter weight of the first object',
+    'Enter velocity of the first object',
+    'Enter weight of the second object',
+    'Enter velocity of the second object',  
+]
+
+
+cursor_visible = True
+cursor_timer = 0
+clock = pygame.time.Clock()
 
 def handle_numbers(number):
     print(number * 10)
+    
+    
+def draw_cursor(active, visible, box, text_box):
+    if active and visible:
+        cursor_x = box.x + 30 + text_box.get_width() + 2
+        cursor_y = box.y + 10
+        cursor_height = font_input_box.get_height()
+        pygame.draw.line(screen, (255, 255, 255), (cursor_x, cursor_y), (cursor_x, cursor_y + cursor_height), 2)
 
 
 def draw_button(button, button_text):
     pygame.draw.rect(screen, (70, 130, 180), button, border_radius=15)
     button_rect = button_text.get_rect(center=button.center)
     screen.blit(button_text, button_rect)
-     
     
 
 
 def simulator_menu():
     global menu_running, color, text, active
-    while menu_running:
+    
+    while menu_running:  
+        global cursor_timer, cursor_visible
+        dt = clock.tick(30)
+        cursor_timer += dt
+        if cursor_timer >= 500:
+            cursor_visible = not cursor_visible
+            cursor_timer = 0
+        
+        
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 menu_running = False
@@ -74,9 +102,13 @@ def simulator_menu():
                             
         screen.fill((30, 30, 30))
         pygame.draw.rect(screen, color, input_box, border_radius=15)
+        
         text_input_box = font_input_box.render(text, True, (255, 255, 255))
         screen.blit(text_input_box, (input_box.x + 30, input_box.y + 10))
         input_box.w = max(200, text_input_box.get_width() + 60)
+        
+        draw_cursor(active, cursor_visible, input_box, text_input_box)
+        
         
         
         draw_button(start_button_rect, start_text)
