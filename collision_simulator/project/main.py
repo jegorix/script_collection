@@ -1,5 +1,6 @@
 from validators import get_float, get_positive_float
 from visualisation import show_interface
+from start_menu import simulator_menu
 import sys
 import os
 
@@ -72,11 +73,11 @@ def main():
     v2 = 18
     
     
-    
     body_1  = Body(mass=m1, velocity=v1 * 10, position=100)
     body_2 = Body(mass=m2, velocity=-v2 * 10, position=500, k = 1.75)
     
-    show_interface(body_1, body_2)
+        
+    show_interface(body_1, body_2) if simulator_menu() else quit()
 
 
 if __name__ == '__main__':
