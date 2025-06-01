@@ -20,6 +20,7 @@ color = color_inactive
 active = False
 text = ''
 
+object_values = []
 
 action_font = pygame.font.SysFont(FONT_PATH, 36)
 
@@ -78,7 +79,7 @@ def draw_input_form(text):
 
 
 def simulator_menu():
-    global menu_running, color, text, active, entered
+    global menu_running, color, text, active, entered, object_values
     
     while menu_running:  
         global cursor_timer, cursor_visible
@@ -115,7 +116,7 @@ def simulator_menu():
                     if event.key == pygame.K_RETURN:
                         if text.isdigit():
                             entered += 1
-                            handle_numbers(float(text))
+                            object_values.append(float(text))
                             text = ''
                         else:
                             print("Error! Please type number")
@@ -144,5 +145,5 @@ def simulator_menu():
 
         pygame.display.flip()
         
-    return running
+    return object_values
     

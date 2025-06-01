@@ -67,17 +67,18 @@ def main():
     #     v2 = 18
     
     
-    m1 = 10
-    v1 = 25
-    m2 = 15
-    v2 = 18
+    # m1 = 10
+    # v1 = 25
+    # m2 = 15
+    # v2 = 18
     
+        
+    m1, v1, m2, v2 = simulator_menu() if simulator_menu() else [10, 25, 15, 18]
     
     body_1  = Body(mass=m1, velocity=v1 * 10, position=100)
     body_2 = Body(mass=m2, velocity=-v2 * 10, position=500, k = 1.75)
     
-        
-    show_interface(body_1, body_2) if simulator_menu() else quit()
+    show_interface(body_1, body_2)
 
 
 if __name__ == '__main__':
