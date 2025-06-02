@@ -1,5 +1,5 @@
 import pygame
-from visualisation import WIDTH, HEIGHT, FONT_PATH
+from config import WIDTH, HEIGHT, FONT_PATH
 from validators import is_float
 pygame.init()
 

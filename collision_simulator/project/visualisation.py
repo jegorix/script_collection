@@ -1,11 +1,9 @@
 import pygame
 import sys
+from pause_menu import pause
+from time import sleep
+from config import *
 
-FONT_PATH = '/Users/macbook/PycharmProjects/scripts_edu/collision_simulator/fonts/FiraCode-Regular.ttf'
-ICON_PATH = '/Users/macbook/PycharmProjects/scripts_edu/collision_simulator/image/ico.svg'
-BACKGROUND_COLOR = (245, 245, 245)
-GRAY = (200, 200, 200)
-DARK_GRAY = (150, 150, 150)
 pygame.init()
 WIDTH, HEIGHT = (700, 400)
 pygame.display.set_caption("Collision Simulator")
@@ -100,7 +98,7 @@ def draw_velocity_text(screen, font, body, name, x = 0, y = 0, padding = 10):
 def show_interface(body1, body2):
     clock = pygame.time.Clock()
     font = pygame.font.SysFont(FONT_PATH, 25, bold=False)
-    
+    paused = False
     running = True
     while running:
         dt = clock.tick(60) / 1000
@@ -112,6 +110,14 @@ def show_interface(body1, body2):
                 
             if event.type == pygame.MOUSEBUTTONDOWN:
                 buttons_operations(body1, body2, event.pos) 
+                
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_SPACE:
+                    paused = not paused
+                if paused:
+                    pause()
+                    #fix moment
+                
                 
                 
         body1.move(dt)
@@ -142,6 +148,7 @@ def show_interface(body1, body2):
                 pygame.draw.rect(screen, DARK_GRAY, button_rect[0], border_radius=10)
             else:
                 pygame.draw.rect(screen, GRAY, button_rect[0], border_radius=10)
+            
             
         for button in buttons.values():   
             draw_button_velocity(button[0], name=button[1])   
