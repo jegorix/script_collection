@@ -1,5 +1,6 @@
 import pygame
 from visualisation import WIDTH, HEIGHT, FONT_PATH
+from validators import is_float
 pygame.init()
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -114,7 +115,7 @@ def simulator_menu():
             elif event.type == pygame.KEYDOWN:
                 if active:
                     if event.key == pygame.K_RETURN:
-                        if text.isdigit():
+                        if is_float(text):
                             entered += 1
                             object_values.append(float(text))
                             text = ''
@@ -124,7 +125,7 @@ def simulator_menu():
                     elif event.key == pygame.K_BACKSPACE:
                         text = text[:-1]
                     else:
-                        if event.unicode.isdigit():
+                        if event.unicode.isdigit() or event.unicode == '.':
                             text += event.unicode                                     
                             
         screen.fill((30, 30, 30))

@@ -15,4 +15,11 @@ def get_positive_float(promt):
             return value
         print("Incorrect! Weight should be greater than zero!")
             
-            
+
+def is_float(number):
+    try:
+        float(number)
+        return True
+    except ValueError:
+        return float
+    
