@@ -120,8 +120,11 @@ def show_interface(body1, body2):
                 result = pause()
                 if result == 'restart':
                     return 'restart'
+                else:
+                    paused = False
                     
-                    
+                clock.tick(60)
+        
                 
         if not paused:        
             body1.move(dt)
