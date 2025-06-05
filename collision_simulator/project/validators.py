@@ -21,5 +21,5 @@ def is_float(number):
         float(number)
         return True
     except ValueError:
-        return float
+        return False
     

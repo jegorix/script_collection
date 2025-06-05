@@ -43,7 +43,8 @@ def get_values():
     active = False
     color = color_inactive
     running = True
-    return cursor_timer, cursor_visible, active, entered, object_values, text, color, running
+    error = 0
+    return cursor_timer, cursor_visible, active, entered, object_values, text, color, running, error
 
 clock = pygame.time.Clock()
 
@@ -81,12 +82,19 @@ def draw_input_form(text):
     screen.blit(text_input_box, (input_box.x + 30, input_box.y + 10))
     input_box.w = max(200, text_input_box.get_width() + 60)
     return text_input_box
+
+def draw_error():
+    error_button_rect = pygame.Rect(input_box.x + input_box.w + 10, input_box.y-3.5, 230, 50)
+    pygame.draw.rect(screen, (0,0,0), error_button_rect, border_radius=10)
+    error_text = font_button.render("Error! Type float", True, (255, 255, 255))
+    error_rect = error_text.get_rect(center=error_button_rect.center) 
+    screen.blit(error_text, error_rect)
     
 
 
 def simulator_menu():
     
-    cursor_timer, cursor_visible, active, entered, object_values, text, color, running = get_values()
+    cursor_timer, cursor_visible, active, entered, object_values, text, color, running, error = get_values()
     
     while running:  
         dt = clock.tick(30)
@@ -122,12 +130,15 @@ def simulator_menu():
                 if active:
                     if event.key == pygame.K_RETURN:
                         if is_float(text):
+                            error = 0 
                             entered += 1
                             object_values.append(float(text))
                             text = ''
                         else:
+                            error = 1
                             print("Error! Please type number")
                             text = ''
+                            
                     elif event.key == pygame.K_BACKSPACE:
                         text = text[:-1]
                     else:
@@ -141,6 +152,9 @@ def simulator_menu():
             pygame.draw.rect(screen, color, input_box, border_radius=15)
             text_input_box = draw_input_form(text)
             draw_cursor(active, cursor_visible, input_box, text_input_box)
+            if error:
+                draw_error()
+                
         else:
             text_surface = action_font.render("You're ready to start!", True, (255, 255, 255))
             screen.blit(text_surface, (input_box.x - 20, input_box.y))
@@ -148,7 +162,8 @@ def simulator_menu():
 
         draw_button(start_button_rect, start_text)
         draw_button(exit_button_rect, exit_text)
-    
+
+
 
         pygame.display.flip()
         
