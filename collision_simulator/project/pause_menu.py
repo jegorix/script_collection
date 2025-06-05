@@ -1,6 +1,7 @@
 import pygame
 from start_menu import font_button, draw_button
 from config import WIDTH, HEIGHT
+import sys
 
 pygame.init()
 screen = pygame.display.set_mode((HEIGHT, WIDTH))
@@ -17,29 +18,28 @@ restart_button = make_button('RESTART', 200)
 exit_button = make_button('EXIT', 300)
 
 def pause():
-    global pause_menu_running
-    
-    while pause_menu_running:
+    while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                pause_menu_running = False
+                pygame.quit()
+                sys.exit()
                 
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 mouse_pos = pygame.mouse.get_pos()
                 if continue_button[0].collidepoint(mouse_pos):
-                    pause_menu_running = False
+                   return 'continue'
                 
-                if restart_button[0].collidepoint(mouse_pos):
-                    pause_menu_running = False
+                elif restart_button[0].collidepoint(mouse_pos):
+                    return 'restart'
+   
+                elif exit_button[0].collidepoint(mouse_pos):
+                    pygame.quit()
+                    sys.exit()
                     
-                    
-                if exit_button[0].collidepoint(mouse_pos):
-                    pause_menu_running = False
-                    pygame.quit
-                    
-            elif event.type == pygame.K_SPACE:
-                pause_menu_running = False
-                return False
+            elif event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_SPACE:
+                    return 'continue'
+
                 
         screen.fill((30, 30, 30))
         

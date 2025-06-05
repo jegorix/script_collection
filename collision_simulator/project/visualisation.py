@@ -100,6 +100,7 @@ def show_interface(body1, body2):
     font = pygame.font.SysFont(FONT_PATH, 25, bold=False)
     paused = False
     running = True
+    result = None
     while running:
         dt = clock.tick(60) / 1000
         
@@ -114,22 +115,25 @@ def show_interface(body1, body2):
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
                     paused = not paused
-                if paused:
-                    pause()
-                    #fix moment
+                        #fix moment
+            if paused:
+                result = pause()
+                if result == 'restart':
+                    return 'restart'
+                    
+                    
                 
-                
-                
-        body1.move(dt)
-        body2.move(dt)
-        
-        body1.bounce_off_walls(WIDTH)
-        body2.bounce_off_walls(WIDTH)
-        
-        distance = abs(body1.position - body2.position)
-        min_distance = (body1.radius + body2.radius)
-        if distance <= min_distance:
-            body1.collide(body2)
+        if not paused:        
+            body1.move(dt)
+            body2.move(dt)
+            
+            body1.bounce_off_walls(WIDTH)
+            body2.bounce_off_walls(WIDTH)
+            
+            distance = abs(body1.position - body2.position)
+            min_distance = (body1.radius + body2.radius)
+            if distance <= min_distance:
+                body1.collide(body2)
             
         # screen.fill(BACKGROUND_COLOR)
         screen.blit(background_image, (0,0))

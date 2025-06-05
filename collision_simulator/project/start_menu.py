@@ -1,11 +1,12 @@
 import pygame
 from config import WIDTH, HEIGHT, FONT_PATH
 from validators import is_float
+import sys
 pygame.init()
+
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Collision Simulator menu")
-menu_running = True
 
 font_button = pygame.font.SysFont(FONT_PATH, 40)
 start_button_rect = pygame.Rect(WIDTH // 2 - 100, 200, 200, 50)
@@ -17,11 +18,11 @@ font_input_box = pygame.font.SysFont(FONT_PATH, 32)
 input_box = pygame.Rect(WIDTH // 2 - 100, 100, 200, 40)
 color_inactive = pygame.Color('lightskyblue3')
 color_active = pygame.Color('dodgerblue2')
-color = color_inactive
-active = False
-text = ''
 
-object_values = []
+
+
+
+
 
 action_font = pygame.font.SysFont(FONT_PATH, 36)
 
@@ -32,13 +33,22 @@ actions_text = [
     'Enter velocity of the second object:', 
     'Object data successfully readed!' 
 ]
-entered = 0
 
+def get_values():
+    entered = 0
+    cursor_visible = True
+    cursor_timer = 0
+    object_values = []
+    text = ''
+    active = False
+    color = color_inactive
+    running = True
+    return cursor_timer, cursor_visible, active, entered, object_values, text, color, running
 
-
-cursor_visible = True
-cursor_timer = 0
 clock = pygame.time.Clock()
+
+
+
 
 def draw_action_text(count):
     for index, text in enumerate(actions_text):
@@ -49,11 +59,7 @@ def draw_action_text(count):
             text_surface = action_font.render(actions_text[-1], True, (255, 255, 255))
             screen.blit(text_surface, (WIDTH // 2 - 180, 30))
         
-            
-
-
-def handle_numbers(number):
-    print(number * 10)
+        
     
     
 def draw_cursor(active, visible, box, text_box):
@@ -76,14 +82,13 @@ def draw_input_form(text):
     input_box.w = max(200, text_input_box.get_width() + 60)
     return text_input_box
     
-    
 
 
 def simulator_menu():
-    global menu_running, color, text, active, entered, object_values
     
-    while menu_running:  
-        global cursor_timer, cursor_visible
+    cursor_timer, cursor_visible, active, entered, object_values, text, color, running = get_values()
+    
+    while running:  
         dt = clock.tick(30)
         cursor_timer += dt
         if cursor_timer >= 500:
@@ -93,17 +98,18 @@ def simulator_menu():
         
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                menu_running = False
+                pygame.quit()
+                sys.exit()
+                
                 
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 mouse_pos = pygame.mouse.get_pos()
                 if start_button_rect.collidepoint(mouse_pos):
-                    running = True
-                    menu_running = False
+                   running = False
                     
                 if exit_button_rect.collidepoint(mouse_pos):
-                    menu_running = False
-                    running = False
+                   pygame.quit()
+                   sys.exit()
                     
                 if input_box.collidepoint(mouse_pos):
                     active = not active
