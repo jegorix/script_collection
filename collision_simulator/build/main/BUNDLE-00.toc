@@ -1,0 +1,3 @@
+([('main',
+   '/Users/macbook/PycharmProjects/scripts_edu/collision_simulator/dist/main',
+   'EXECUTABLE')],)

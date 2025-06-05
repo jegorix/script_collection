@@ -12,6 +12,9 @@ image_paths = [os.path.join(image_dir, img) for img in image_files]
 font_path = os.path.join(BASE_DIR, "fonts", "FiraCode-Regular.ttf")
 
 
+# pyinstaller --onefile --noconsole --add-data "fonts:fonts" --add-data "image:image" project/main.py
+
+
 def main():
     print("Two body collision simulator")
 
