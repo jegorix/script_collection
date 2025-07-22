@@ -3,6 +3,8 @@ from coordinates import get_gps_coordinates
 from weather_api_service import get_weather
 from weather_formatter import format_weather
 from exceptions import CantGetCoordinates, ApiServiceError
+from history import save_weather, PlainFileWeatherStorage, JSONFileWeatherStorage
+from pathlib import Path
 
 def main():
     try:
@@ -18,6 +20,12 @@ def main():
         exit(1)    
     
     print(format_weather(weather))
+    
+    save_weather(
+        weather,
+        JSONFileWeatherStorage(Path.cwd() / "history.json")
+    )
+    
     
 if __name__ == "__main__":
     main()
