@@ -1,0 +1,3 @@
+/Users/macbook/C++_project/project/build/CMakeFiles/animal_program.dir
+/Users/macbook/C++_project/project/build/CMakeFiles/edit_cache.dir
+/Users/macbook/C++_project/project/build/CMakeFiles/rebuild_cache.dir
