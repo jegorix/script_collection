@@ -1,0 +1,3 @@
+/Users/macbook/PycharmProjects/scripts_edu/algorithms&data/study/print_implementation/build/CMakeFiles/print_program.dir
+/Users/macbook/PycharmProjects/scripts_edu/algorithms&data/study/print_implementation/build/CMakeFiles/edit_cache.dir
+/Users/macbook/PycharmProjects/scripts_edu/algorithms&data/study/print_implementation/build/CMakeFiles/rebuild_cache.dir

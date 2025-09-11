@@ -33,22 +33,23 @@ Thumbs.db
 .ipynb_checkpoints/
 
 # PyInstaller
-*.spec
-dist/
-build/
+# *.spec
+# dist/
+# build/
 
 # Others
 *.bak
 *.tmp
 # Image files
 *.png
-# *.jpg
+*.jpg
 *.jpeg
 *.gif
 *.bmp
 *.tiff
 *.webp
-# *.svg
+*.svg
+*.ttf
 
 # Python compiled files
 *.pyc
