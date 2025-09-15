@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: right;
+    color: green;
+    text-decoration: underline;
+    font-size: xx-large;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+.main-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.main-table th, .main-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.main-table th {
+    background-color: lightblue;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: darkred;
+}
