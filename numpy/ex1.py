@@ -140,3 +140,32 @@ print(a2)
 
 a3 = np.fromstring("1 2 3 4 5", "int16", sep=' ')
 print(a3)
+
+# WORK WITH NUMPY ARRAY PROPERTIES
+
+a = np.array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9])
+a.dtype = np.int8()
+print(a, a.dtype, a.size, a.itemsize, a.size*a.itemsize, sep='\n')
+
+
+b = np.ones((3,4,5))
+print(b)
+print(f"b.ndim = {b.ndim}, b.shape = {b.shape}", end='\n\n')
+b.shape = 60
+b.shape = (4,15)
+print(b, end='\n\n')
+
+
+d = b.T
+print(d)
+
+a = np.array([1,2,3,4,5,6])
+b = a.view() # copy view ONLY!
+
+print()
+a.shape = (2,3)
+print(b)
+print(a) 
+
+b = np.array(a, copy=True) # deep copy
+b = a.copy() # deep copy
