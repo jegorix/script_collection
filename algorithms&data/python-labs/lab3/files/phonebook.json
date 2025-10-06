@@ -1,0 +1,59 @@
+{
+    "contacts": [
+        {
+            "first_name": "Адриан",
+            "last_name": "Григорцевич",
+            "phone": "+375291234567"
+        },
+        {
+            "first_name": "Мария",
+            "last_name": "Иванова",
+            "phone": "+375293456789"
+        },
+        {
+            "first_name": "Алексей",
+            "last_name": "Петров",
+            "phone": "+375297654321"
+        },
+        {
+            "first_name": "Ольга",
+            "last_name": "Сидорова",
+            "phone": "+375299876543"
+        },
+        {
+            "first_name": "Дмитрий",
+            "last_name": "Кузнецов",
+            "phone": "+375291112233"
+        },
+        {
+            "first_name": "Анна",
+            "last_name": "Федорова",
+            "phone": "+375295554433"
+        },
+        {
+            "first_name": "Иван",
+            "last_name": "Смирнов",
+            "phone": "+375296667788"
+        },
+        {
+            "first_name": "Елена",
+            "last_name": "Морозова",
+            "phone": "+375292223344"
+        },
+        {
+            "first_name": "Сергей",
+            "last_name": "Васильев",
+            "phone": "+375293334455"
+        },
+        {
+            "first_name": "Наталья",
+            "last_name": "Лебедева",
+            "phone": "+375297778899"
+        },
+        {
+            "first_name": "vfvfz",
+            "last_name": "vzfv fdv",
+            "phone": "+375292923421"
+        }
+    ]
+}
