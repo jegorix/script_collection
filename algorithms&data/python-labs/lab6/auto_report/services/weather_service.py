@@ -46,3 +46,7 @@ def fetch_weather(city: str | None = None, timeout: int = 10) -> pd.DataFrame:
     df = pd.DataFrame([row])
     
     return df
+
+if __name__ == "__main__":
+    df = fetch_weather()
+    print(df)
