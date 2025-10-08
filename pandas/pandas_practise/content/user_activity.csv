@@ -1,0 +1,11 @@
+user_id;page;time_spent;date;city;device
+1;Home;5;2025-10-01;Berlin;Desktop
+2;Products;7;2025-10-01;Munich;Mobile
+3;About;3;2025-10-01;Berlin;Tablet
+1;Products;8;2025-10-02;Berlin;Desktop
+4;Home;6;2025-10-02;Hamburg;Mobile
+2;Contact;4;2025-10-02;Munich;Mobile
+3;Products;10;2025-10-03;Berlin;Tablet
+5;Home;7;2025-10-03;Hamburg;Desktop
+1;Contact;5;2025-10-04;Berlin;Desktop
+4;Products;8;2025-10-04;Hamburg;Mobile

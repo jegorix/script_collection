@@ -1,0 +1,11 @@
+order_id;customer;product;category;price;quantity;order_date;city;device;status
+1;Alice;Laptop;Electronics;1200;1;2025-10-01;Berlin;Desktop;Completed
+2;Bob;Headphones;Electronics;150;2;2025-10-01;Munich;Mobile;Completed
+3;Charlie;Coffee Maker;Home;80;1;2025-10-02;Berlin;Tablet;Cancelled
+4;Alice;Smartphone;Electronics;900;1;2025-10-02;Berlin;Mobile;Completed
+5;David;Blender;Home;60;2;2025-10-03;Hamburg;Desktop;Completed
+6;Eva;Book;Books;20;3;2025-10-03;Munich;Tablet;Completed
+7;Frank;Laptop;Electronics;1200;1;2025-10-04;Berlin;Desktop;Completed
+8;Grace;Chair;Home;150;1;2025-10-04;Hamburg;Mobile;Completed
+9;Bob;Smartwatch;Electronics;250;1;2025-10-05;Munich;Mobile;Cancelled
+10;Alice;Book;Books;20;2;2025-10-05;Berlin;Tablet;Completed
