@@ -29,7 +29,7 @@ ax1.plot(df_weather['date'], df_weather['temp_average'], color='red', marker='o'
 ax1.set_xlabel("Дата")
 ax1.set_ylabel("Температура")
 
-# Seciond axis Y for preciptation
+# Second axis Y for preciptation
 ax2 = ax1.twinx()
 ax2.plot(df_weather['date'], df_weather['precipitation'], alpha=0.3, color='blue', label="Осадки (мм)")
 ax2.set_ylabel("Осадки (мм)", color="blue")
