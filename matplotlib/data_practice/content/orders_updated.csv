@@ -1,0 +1,251 @@
+,order_id,customer_id,date,category,product,quantity,price,total_price,day_of_week
+0,1,194,2023-05-21,Electronics,Phone,2,428,856,Sunday
+1,2,186,2023-10-07,Clothes,T-shirt,1,118,118,Saturday
+2,3,111,2023-04-22,Electronics,Phone,2,717,1434,Saturday
+3,4,171,2023-04-12,Beauty,Perfume,5,117,585,Wednesday
+4,5,175,2023-05-23,Clothes,Sneakers,1,50,50,Tuesday
+5,6,135,2023-03-21,Home,Lamp,2,420,840,Tuesday
+6,7,111,2023-07-14,Books,Python Guide,1,27,27,Friday
+7,8,133,2023-01-23,Books,Comics,4,39,156,Monday
+8,9,110,2023-10-10,Electronics,Headphones,3,1049,3147,Tuesday
+9,10,173,2023-04-09,Beauty,Cream,1,21,21,Sunday
+10,11,110,2023-04-30,Clothes,Jacket,1,107,107,Sunday
+11,12,181,2023-07-06,Books,Math Textbook,2,28,56,Thursday
+12,13,185,2023-05-17,Books,Sci-Fi Novel,1,43,43,Wednesday
+13,14,193,2023-05-06,Clothes,Cap,2,128,256,Saturday
+14,15,181,2023-12-19,Home,Lamp,5,142,710,Tuesday
+15,16,129,2023-01-17,Books,Python Guide,3,30,90,Tuesday
+16,17,127,2023-10-18,Books,Python Guide,3,18,54,Wednesday
+17,18,182,2023-08-23,Home,Sofa,2,165,330,Wednesday
+18,19,195,2023-10-15,Clothes,Jeans,5,77,385,Sunday
+19,20,174,2023-07-24,Beauty,Lipstick,3,66,198,Monday
+20,21,163,2023-02-16,Clothes,Cap,1,38,38,Thursday
+21,22,187,2023-08-05,Clothes,Jeans,5,26,130,Saturday
+22,23,176,2023-08-28,Home,Sofa,5,158,790,Monday
+23,24,187,2023-02-28,Beauty,Perfume,5,78,390,Tuesday
+24,25,137,2023-08-11,Books,Python Guide,2,34,68,Friday
+25,26,164,2023-04-02,Electronics,Tablet,5,1134,5670,Sunday
+26,27,181,2023-09-17,Electronics,Tablet,5,403,2015,Sunday
+27,28,197,2023-03-24,Clothes,Jacket,5,145,725,Friday
+28,29,141,2023-09-08,Electronics,Smartwatch,1,314,314,Friday
+29,30,130,2023-01-30,Books,History Book,2,41,82,Monday
+30,31,193,2023-09-06,Electronics,Phone,1,978,978,Wednesday
+31,32,116,2023-12-04,Beauty,Shampoo,4,150,600,Monday
+32,33,167,2023-11-07,Clothes,Jacket,4,64,256,Tuesday
+33,34,191,2023-06-09,Beauty,Shampoo,4,181,724,Friday
+34,35,166,2023-08-20,Books,Math Textbook,1,20,20,Sunday
+35,36,143,2023-01-11,Clothes,T-shirt,5,68,340,Wednesday
+36,37,100,2023-02-06,Beauty,Shampoo,1,68,68,Monday
+37,38,142,2023-02-06,Electronics,Phone,5,443,2215,Monday
+38,39,127,2023-10-04,Books,Math Textbook,2,51,102,Wednesday
+39,40,160,2023-05-05,Beauty,Makeup Kit,4,114,456,Friday
+40,41,112,2023-12-04,Clothes,T-shirt,4,100,400,Monday
+41,42,159,2023-01-28,Home,Sofa,1,61,61,Saturday
+42,43,113,2023-05-08,Home,Lamp,2,127,254,Monday
+43,44,117,2023-08-05,Beauty,Lipstick,2,81,162,Saturday
+44,45,109,2023-08-15,Home,Table,5,80,400,Tuesday
+45,46,101,2023-02-17,Electronics,Smartwatch,2,370,740,Friday
+46,47,161,2023-04-20,Home,Sofa,4,492,1968,Thursday
+47,48,148,2023-01-02,Electronics,Laptop,4,471,1884,Monday
+48,49,154,2023-12-23,Home,Lamp,5,368,1840,Saturday
+49,50,124,2023-06-01,Home,Table,2,59,118,Thursday
+50,51,107,2023-06-10,Beauty,Makeup Kit,1,22,22,Saturday
+51,52,164,2023-09-29,Beauty,Lipstick,2,24,48,Friday
+52,53,123,2023-02-05,Beauty,Perfume,5,27,135,Sunday
+53,54,115,2023-10-19,Clothes,Sneakers,2,20,40,Thursday
+54,55,153,2023-12-03,Beauty,Perfume,5,154,770,Sunday
+55,56,133,2023-04-15,Beauty,Cream,3,71,213,Saturday
+56,57,116,2023-12-10,Books,Math Textbook,3,34,102,Sunday
+57,58,101,2023-08-23,Books,Python Guide,5,41,205,Wednesday
+58,59,168,2023-04-20,Electronics,Phone,5,471,2355,Thursday
+59,60,108,2023-05-06,Clothes,Jacket,3,82,246,Saturday
+60,61,169,2023-12-27,Clothes,Sneakers,3,145,435,Wednesday
+61,62,138,2023-12-06,Electronics,Smartwatch,1,1161,1161,Wednesday
+62,63,114,2023-02-24,Clothes,Jacket,5,49,245,Friday
+63,64,177,2023-04-18,Books,History Book,3,18,54,Tuesday
+64,65,162,2023-05-09,Books,Comics,1,10,10,Tuesday
+65,66,105,2023-01-02,Home,Lamp,3,424,1272,Monday
+66,67,120,2023-08-15,Clothes,Jacket,5,119,595,Tuesday
+67,68,114,2023-02-08,Beauty,Perfume,2,149,298,Wednesday
+68,69,174,2023-10-10,Electronics,Tablet,2,640,1280,Tuesday
+69,70,139,2023-07-06,Clothes,T-shirt,1,101,101,Thursday
+70,71,185,2023-02-22,Clothes,Jeans,3,114,342,Wednesday
+71,72,130,2023-03-25,Beauty,Shampoo,2,115,230,Saturday
+72,73,194,2023-06-20,Electronics,Laptop,4,1021,4084,Tuesday
+73,74,120,2023-12-26,Clothes,Jacket,1,107,107,Tuesday
+74,75,128,2023-04-13,Electronics,Headphones,4,558,2232,Thursday
+75,76,128,2023-01-13,Books,Sci-Fi Novel,2,30,60,Friday
+76,77,108,2023-05-23,Books,History Book,3,46,138,Tuesday
+77,78,186,2023-10-02,Beauty,Lipstick,3,17,51,Monday
+78,79,122,2023-10-25,Electronics,Tablet,3,239,717,Wednesday
+79,80,155,2023-06-26,Electronics,Smartwatch,3,646,1938,Monday
+80,81,114,2023-07-17,Beauty,Makeup Kit,5,58,290,Monday
+81,82,190,2023-08-12,Books,Python Guide,1,38,38,Saturday
+82,83,146,2023-08-09,Beauty,Shampoo,1,180,180,Wednesday
+83,84,140,2023-12-06,Books,Comics,1,51,51,Wednesday
+84,85,139,2023-12-08,Books,Comics,4,25,100,Friday
+85,86,170,2023-03-07,Home,Lamp,2,245,490,Tuesday
+86,87,178,2023-10-19,Home,Table,3,237,711,Thursday
+87,88,138,2023-05-27,Beauty,Perfume,2,120,240,Saturday
+88,89,183,2023-06-14,Beauty,Makeup Kit,4,123,492,Wednesday
+89,90,165,2023-08-31,Home,Table,2,367,734,Thursday
+90,91,165,2023-12-06,Electronics,Tablet,5,543,2715,Wednesday
+91,92,186,2023-06-08,Electronics,Laptop,2,1025,2050,Thursday
+92,93,103,2023-01-24,Clothes,Jeans,2,131,262,Tuesday
+93,94,158,2023-08-01,Beauty,Perfume,5,59,295,Tuesday
+94,95,151,2023-05-05,Home,Sofa,2,365,730,Friday
+95,96,199,2023-08-06,Electronics,Phone,2,380,760,Sunday
+96,97,106,2023-10-13,Beauty,Lipstick,2,41,82,Friday
+97,98,159,2023-12-08,Home,Table,5,316,1580,Friday
+98,99,196,2023-08-15,Beauty,Cream,5,194,970,Tuesday
+99,100,170,2023-08-17,Beauty,Lipstick,2,200,400,Thursday
+100,101,133,2023-05-07,Home,Sofa,3,422,1266,Sunday
+101,102,180,2023-05-03,Beauty,Lipstick,3,122,366,Wednesday
+102,103,130,2023-05-20,Electronics,Tablet,3,527,1581,Saturday
+103,104,117,2023-03-19,Beauty,Perfume,2,108,216,Sunday
+104,105,108,2023-08-01,Clothes,Jeans,4,94,376,Tuesday
+105,106,153,2023-02-01,Beauty,Lipstick,2,117,234,Wednesday
+106,107,189,2023-01-11,Home,Bed,5,224,1120,Wednesday
+107,108,145,2023-06-02,Home,Chair,4,466,1864,Friday
+108,109,195,2023-10-07,Home,Bed,5,489,2445,Saturday
+109,110,128,2023-05-20,Clothes,Sneakers,4,134,536,Saturday
+110,111,143,2023-12-09,Electronics,Headphones,4,941,3764,Saturday
+111,112,116,2023-11-15,Clothes,Sneakers,5,16,80,Wednesday
+112,113,172,2023-12-06,Home,Bed,1,72,72,Wednesday
+113,114,159,2023-04-04,Home,Table,1,163,163,Tuesday
+114,115,127,2023-08-21,Home,Lamp,3,202,606,Monday
+115,116,196,2023-08-04,Home,Lamp,3,457,1371,Friday
+116,117,102,2023-10-04,Electronics,Headphones,1,1174,1174,Wednesday
+117,118,183,2023-02-05,Books,Sci-Fi Novel,1,53,53,Sunday
+118,119,125,2023-01-11,Electronics,Laptop,5,356,1780,Wednesday
+119,120,160,2023-12-09,Clothes,Jeans,1,65,65,Saturday
+120,121,198,2023-07-08,Home,Lamp,2,340,680,Saturday
+121,122,199,2023-03-25,Beauty,Perfume,3,37,111,Saturday
+122,123,139,2023-10-22,Beauty,Perfume,4,111,444,Sunday
+123,124,175,2023-12-20,Clothes,T-shirt,2,36,72,Wednesday
+124,125,115,2023-10-17,Books,Comics,1,27,27,Tuesday
+125,126,184,2023-07-09,Beauty,Lipstick,1,139,139,Sunday
+126,127,153,2023-09-08,Books,Python Guide,1,32,32,Friday
+127,128,190,2023-03-20,Books,Math Textbook,4,16,64,Monday
+128,129,178,2023-10-03,Beauty,Cream,4,129,516,Tuesday
+129,130,134,2023-06-15,Home,Bed,2,455,910,Thursday
+130,131,157,2023-05-05,Electronics,Tablet,4,783,3132,Friday
+131,132,143,2023-01-15,Beauty,Lipstick,4,93,372,Sunday
+132,133,127,2023-07-01,Clothes,Sneakers,3,97,291,Saturday
+133,134,189,2023-05-22,Books,Comics,5,5,25,Monday
+134,135,110,2023-05-04,Beauty,Shampoo,4,135,540,Thursday
+135,136,188,2023-09-01,Beauty,Shampoo,4,124,496,Friday
+136,137,137,2023-04-24,Electronics,Phone,4,908,3632,Monday
+137,138,184,2023-10-25,Clothes,Jacket,3,131,393,Wednesday
+138,139,144,2023-08-06,Beauty,Makeup Kit,5,94,470,Sunday
+139,140,134,2023-06-06,Books,Math Textbook,3,19,57,Tuesday
+140,141,140,2023-03-03,Electronics,Laptop,5,1173,5865,Friday
+141,142,127,2023-09-05,Clothes,Jeans,3,144,432,Tuesday
+142,143,112,2023-04-10,Beauty,Cream,3,68,204,Monday
+143,144,138,2023-01-08,Books,Sci-Fi Novel,5,13,65,Sunday
+144,145,106,2023-10-11,Books,Python Guide,3,49,147,Wednesday
+145,146,113,2023-01-07,Clothes,Sneakers,5,82,410,Saturday
+146,147,156,2023-06-24,Home,Sofa,2,56,112,Saturday
+147,148,114,2023-02-03,Books,Math Textbook,4,36,144,Friday
+148,149,180,2023-12-18,Electronics,Smartwatch,1,355,355,Monday
+149,150,138,2023-02-13,Clothes,Cap,2,40,80,Monday
+150,151,177,2023-11-02,Beauty,Lipstick,5,67,335,Thursday
+151,152,157,2023-08-15,Beauty,Lipstick,3,160,480,Tuesday
+152,153,172,2023-11-14,Home,Lamp,1,342,342,Tuesday
+153,154,180,2023-04-19,Electronics,Laptop,3,876,2628,Wednesday
+154,155,130,2023-03-30,Electronics,Laptop,5,276,1380,Thursday
+155,156,152,2023-08-19,Clothes,T-shirt,5,130,650,Saturday
+156,157,129,2023-05-28,Books,Python Guide,3,49,147,Sunday
+157,158,187,2023-04-30,Home,Chair,3,433,1299,Sunday
+158,159,154,2023-02-28,Beauty,Shampoo,5,67,335,Tuesday
+159,160,118,2023-02-06,Clothes,Jacket,1,52,52,Monday
+160,161,195,2023-10-19,Books,Comics,3,33,99,Thursday
+161,162,188,2023-06-05,Electronics,Headphones,4,1165,4660,Monday
+162,163,169,2023-09-10,Books,Comics,4,10,40,Sunday
+163,164,155,2023-06-15,Beauty,Perfume,5,74,370,Thursday
+164,165,129,2023-12-12,Electronics,Phone,5,801,4005,Tuesday
+165,166,173,2023-01-21,Electronics,Tablet,2,681,1362,Saturday
+166,167,135,2023-04-03,Beauty,Lipstick,5,121,605,Monday
+167,168,160,2023-06-28,Home,Chair,4,200,800,Wednesday
+168,169,120,2023-06-18,Books,Python Guide,4,49,196,Sunday
+169,170,184,2023-07-25,Home,Lamp,5,48,240,Tuesday
+170,171,140,2023-05-10,Home,Chair,3,89,267,Wednesday
+171,172,100,2023-12-03,Home,Bed,5,266,1330,Sunday
+172,173,124,2023-09-23,Home,Chair,3,348,1044,Saturday
+173,174,197,2023-01-27,Home,Sofa,2,166,332,Friday
+174,175,136,2023-08-13,Beauty,Shampoo,4,41,164,Sunday
+175,176,130,2023-12-30,Electronics,Smartwatch,2,518,1036,Saturday
+176,177,170,2023-07-28,Beauty,Perfume,1,67,67,Friday
+177,178,115,2023-11-28,Electronics,Headphones,2,710,1420,Tuesday
+178,179,190,2023-05-20,Books,Comics,4,58,232,Saturday
+179,180,131,2023-08-22,Home,Sofa,5,104,520,Tuesday
+180,181,176,2023-09-18,Home,Table,2,472,944,Monday
+181,182,198,2023-08-01,Electronics,Tablet,3,1156,3468,Tuesday
+182,183,100,2023-05-25,Beauty,Cream,3,160,480,Thursday
+183,184,119,2023-08-17,Beauty,Lipstick,5,133,665,Thursday
+184,185,170,2023-10-06,Books,History Book,4,34,136,Friday
+185,186,189,2023-05-03,Books,Sci-Fi Novel,5,29,145,Wednesday
+186,187,105,2023-06-12,Clothes,Sneakers,4,107,428,Monday
+187,188,163,2023-01-19,Home,Table,2,287,574,Thursday
+188,189,112,2023-08-14,Beauty,Cream,1,144,144,Monday
+189,190,192,2023-03-15,Home,Chair,4,475,1900,Wednesday
+190,191,160,2023-05-16,Clothes,T-shirt,3,111,333,Tuesday
+191,192,186,2023-10-01,Electronics,Tablet,4,1177,4708,Sunday
+192,193,169,2023-01-19,Books,Math Textbook,5,9,45,Thursday
+193,194,129,2023-02-16,Clothes,Jacket,4,35,140,Thursday
+194,195,121,2023-12-22,Electronics,Headphones,3,1125,3375,Friday
+195,196,141,2023-01-29,Electronics,Phone,3,567,1701,Sunday
+196,197,118,2023-05-06,Books,Math Textbook,5,31,155,Saturday
+197,198,121,2023-03-31,Beauty,Shampoo,1,166,166,Friday
+198,199,187,2023-05-04,Home,Bed,4,497,1988,Thursday
+199,200,129,2023-08-25,Beauty,Shampoo,3,127,381,Friday
+200,201,159,2023-05-28,Books,Python Guide,5,15,75,Sunday
+201,202,144,2023-10-28,Electronics,Headphones,3,854,2562,Saturday
+202,203,158,2023-06-04,Home,Lamp,2,226,452,Sunday
+203,204,130,2023-07-15,Home,Chair,5,213,1065,Saturday
+204,205,189,2023-06-01,Beauty,Cream,1,178,178,Thursday
+205,206,101,2023-10-17,Home,Lamp,1,496,496,Tuesday
+206,207,136,2023-04-28,Beauty,Lipstick,5,100,500,Friday
+207,208,179,2023-05-09,Clothes,Jeans,2,34,68,Tuesday
+208,209,200,2023-08-14,Electronics,Tablet,1,793,793,Monday
+209,210,111,2023-06-01,Books,Sci-Fi Novel,3,52,156,Thursday
+210,211,125,2023-03-09,Home,Table,5,478,2390,Thursday
+211,212,164,2023-05-20,Books,Comics,2,21,42,Saturday
+212,213,195,2023-06-23,Home,Lamp,1,269,269,Friday
+213,214,196,2023-04-26,Electronics,Laptop,4,1190,4760,Wednesday
+214,215,111,2023-07-22,Beauty,Cream,1,77,77,Saturday
+215,216,158,2023-07-08,Beauty,Perfume,3,159,477,Saturday
+216,217,113,2023-12-12,Home,Lamp,2,271,542,Tuesday
+217,218,171,2023-06-17,Electronics,Smartwatch,5,426,2130,Saturday
+218,219,189,2023-06-04,Electronics,Headphones,4,319,1276,Sunday
+219,220,104,2023-06-05,Clothes,T-shirt,4,39,156,Monday
+220,221,168,2023-03-11,Electronics,Laptop,4,664,2656,Saturday
+221,222,153,2023-10-28,Books,Comics,2,31,62,Saturday
+222,223,178,2023-07-28,Electronics,Headphones,3,233,699,Friday
+223,224,156,2023-08-16,Books,Sci-Fi Novel,2,59,118,Wednesday
+224,225,187,2023-07-08,Books,Python Guide,5,46,230,Saturday
+225,226,150,2023-05-22,Books,Python Guide,2,12,24,Monday
+226,227,184,2023-04-19,Home,Chair,5,40,200,Wednesday
+227,228,131,2023-03-06,Electronics,Tablet,5,410,2050,Monday
+228,229,126,2023-10-28,Electronics,Smartwatch,2,1032,2064,Saturday
+229,230,199,2023-03-17,Clothes,Jacket,5,10,50,Friday
+230,231,116,2023-10-04,Books,Sci-Fi Novel,3,56,168,Wednesday
+231,232,184,2023-01-14,Clothes,T-shirt,2,13,26,Saturday
+232,233,175,2023-06-15,Books,Sci-Fi Novel,1,16,16,Thursday
+233,234,116,2023-08-04,Books,Python Guide,5,12,60,Friday
+234,235,157,2023-07-05,Electronics,Headphones,5,807,4035,Wednesday
+235,236,164,2023-04-24,Electronics,Headphones,5,244,1220,Monday
+236,237,158,2023-11-26,Beauty,Cream,1,25,25,Sunday
+237,238,154,2023-12-18,Home,Sofa,1,281,281,Monday
+238,239,110,2023-06-14,Home,Chair,5,105,525,Wednesday
+239,240,135,2023-11-16,Electronics,Laptop,5,761,3805,Thursday
+240,241,176,2023-09-29,Books,Math Textbook,3,34,102,Friday
+241,242,155,2023-02-20,Beauty,Makeup Kit,1,177,177,Monday
+242,243,155,2023-08-20,Beauty,Shampoo,2,115,230,Sunday
+243,244,151,2023-08-01,Books,Math Textbook,1,25,25,Tuesday
+244,245,185,2023-05-11,Home,Lamp,3,108,324,Thursday
+245,246,111,2023-02-13,Home,Chair,1,251,251,Monday
+246,247,116,2023-10-12,Electronics,Tablet,1,800,800,Thursday
+247,248,142,2023-12-10,Beauty,Makeup Kit,1,115,115,Sunday
+248,249,192,2023-01-27,Books,Math Textbook,3,43,129,Friday
+249,250,113,2023-10-23,Books,History Book,5,18,90,Monday
