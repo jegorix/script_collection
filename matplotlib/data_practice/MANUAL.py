@@ -142,13 +142,26 @@ sns.heatmap(pivot_day_order,
 ax[0, 2].set_title('Количество заказов по дням недели')
 
 
+# # HeatMap корелляции
+# corr = df_students[['score', 'hours_spent', 'age']].corr()
+# sns.heatmap(corr, annot=True, cmap='YlOrRd', ax=ax[1, 1])
+# ax[1, 1].set_title("Тепловая карта корреляции признаков")
+
+
+
 # Histogram: Гистограма распределения цен
 ax[1, 2].hist(purchase_prices, bins=30, color='skyblue', edgecolor='black', alpha=0.7)
 ax[1, 2].set_title("Распределение цен покупок")
 ax[1, 2].set_xlabel("Цена")
 ax[1, 2].set_ylabel("Количество")
 
-
+# Линейный график
+ax[2, 2].scatter(df_orders['day_of_week'], df_orders['customer_id'],
+                 alpha=0.6)
+ax[2, 2].set_title('Зависимость дня недели и количества пользователей')
+ax[2, 2].set_xlabel('День недели')
+ax[2, 2].set_ylabel('Количество пользователей')
+ax[2, 2].grid(True, linestyle='--', alpha=0.5)
 # Вывод всех графиков
 plt.tight_layout()
 plt.show()
@@ -161,6 +174,17 @@ print('\nКорреляция между количеством товара и 
 
 
 # ---- NumPy-анализ ----
+
+# CUSTOM AGG
+
+# % completeness by course
+# course_stats = df_students.groupby('course').agg(
+#     avg_score=('score', 'mean'),
+#     avg_hours=('hours_spent', 'mean'),
+#     precent_completed=('completed', lambda x: x.mean() * 100)
+# ).sort_values('avg_score', ascending=False)
+
+# print(course_stats, "\n")
 
 
 
