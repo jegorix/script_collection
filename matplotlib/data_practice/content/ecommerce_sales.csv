@@ -1,0 +1,1001 @@
+order_id,customer_id,product,category,price,quantity,order_date,city,payment_method
+1001,505,Washing Machine,Home Appliances,877,4,2025-03-01,San Francisco,Credit Card
+1002,638,Jeans,Clothing,42,1,2025-02-23,San Francisco,PayPal
+1003,507,iPhone 14,Electronics,1085,4,2025-03-23,San Francisco,Credit Card
+1004,1070,Desk,Furniture,424,2,2025-02-17,New York,Debit Card
+1005,1031,iPhone 14,Electronics,1047,3,2025-03-12,San Francisco,Credit Card
+1006,866,Tablet,Electronics,545,3,2025-01-08,Chicago,Debit Card
+1007,601,T-shirt,Clothing,97,2,2025-03-24,Los Angeles,Debit Card
+1008,512,T-shirt,Clothing,105,3,2025-01-24,Chicago,Credit Card
+1009,1276,Headphones,Electronics,172,5,2025-03-04,Los Angeles,Credit Card
+1010,1475,Sneakers,Clothing,151,3,2025-03-15,San Francisco,Credit Card
+1011,1250,Microwave,Home Appliances,291,1,2025-01-14,San Francisco,Debit Card
+1012,1458,Jeans,Clothing,72,1,2025-02-19,New York,PayPal
+1013,810,Washing Machine,Home Appliances,894,2,2025-03-08,Miami,Credit Card
+1014,684,Microwave,Home Appliances,204,5,2025-02-19,Chicago,PayPal
+1015,1108,Jeans,Clothing,41,5,2025-03-01,New York,Credit Card
+1016,1499,Headphones,Electronics,236,5,2025-02-05,Houston,Debit Card
+1017,549,Office Chair,Furniture,290,5,2025-03-01,Miami,Credit Card
+1018,550,Washing Machine,Home Appliances,811,3,2025-01-24,Los Angeles,Credit Card
+1019,1470,Jacket,Clothing,189,1,2025-03-18,Miami,Credit Card
+1020,1135,Blender,Home Appliances,129,4,2025-03-10,Houston,Debit Card
+1021,1452,Sofa,Furniture,1203,2,2025-01-16,Houston,PayPal
+1022,1433,MacBook Air,Electronics,1375,4,2025-03-22,San Francisco,PayPal
+1023,1163,Microwave,Home Appliances,299,2,2025-03-09,New York,Debit Card
+1024,694,T-shirt,Clothing,74,4,2025-02-20,Miami,Debit Card
+1025,1223,Blender,Home Appliances,128,4,2025-03-17,Chicago,Credit Card
+1026,568,iPhone 14,Electronics,1043,2,2025-01-03,Chicago,Credit Card
+1027,1296,Desk,Furniture,433,2,2025-03-03,Houston,Debit Card
+1028,1453,Desk,Furniture,429,3,2025-02-04,New York,Debit Card
+1029,1229,Backpack,Clothing,121,3,2025-01-09,Miami,Debit Card
+1030,933,AirPods Pro,Electronics,243,1,2025-01-05,Chicago,Debit Card
+1031,861,Desk,Furniture,446,3,2025-01-07,Houston,PayPal
+1032,1497,Office Chair,Furniture,353,3,2025-03-26,Los Angeles,Credit Card
+1033,597,Sneakers,Clothing,184,1,2025-01-17,Houston,Debit Card
+1034,1331,Jacket,Clothing,145,2,2025-03-16,Los Angeles,Credit Card
+1035,1475,T-shirt,Clothing,2,5,2025-03-07,Los Angeles,PayPal
+1036,1256,Desk,Furniture,439,4,2025-03-01,New York,PayPal
+1037,1072,AirPods Pro,Electronics,335,3,2025-02-02,Houston,PayPal
+1038,1389,iPhone 14,Electronics,1072,1,2025-01-24,Miami,Credit Card
+1039,947,T-shirt,Clothing,91,3,2025-02-10,Chicago,PayPal
+1040,1369,Coffee Maker,Home Appliances,148,4,2025-02-09,New York,Debit Card
+1041,1234,MacBook Air,Electronics,1390,4,2025-02-14,Miami,PayPal
+1042,1124,Coffee Maker,Home Appliances,204,5,2025-03-29,Chicago,Debit Card
+1043,1111,Monitor,Electronics,329,5,2025-03-31,Los Angeles,PayPal
+1044,1029,Office Chair,Furniture,347,5,2025-03-21,Chicago,Credit Card
+1045,899,MacBook Air,Electronics,1330,2,2025-02-15,Los Angeles,Credit Card
+1046,790,T-shirt,Clothing,27,5,2025-03-16,Houston,Credit Card
+1047,512,Tablet,Electronics,596,3,2025-01-01,Los Angeles,Credit Card
+1048,555,Headphones,Electronics,259,1,2025-02-16,San Francisco,Credit Card
+1049,706,T-shirt,Clothing,29,5,2025-02-12,Houston,PayPal
+1050,1423,Office Chair,Furniture,335,3,2025-01-26,San Francisco,Credit Card
+1051,669,Coffee Maker,Home Appliances,133,5,2025-01-05,New York,PayPal
+1052,1135,Jacket,Clothing,115,3,2025-01-29,San Francisco,PayPal
+1053,691,Headphones,Electronics,206,5,2025-03-08,Miami,Debit Card
+1054,1016,Sofa,Furniture,1236,5,2025-01-30,New York,PayPal
+1055,1108,Coffee Maker,Home Appliances,170,4,2025-03-12,Houston,Credit Card
+1056,1177,Coffee Maker,Home Appliances,244,5,2025-02-21,Chicago,Debit Card
+1057,509,MacBook Air,Electronics,1324,5,2025-02-04,San Francisco,PayPal
+1058,555,MacBook Air,Electronics,1279,3,2025-01-27,Los Angeles,Credit Card
+1059,1406,Gaming Mouse,Electronics,89,2,2025-01-10,Houston,Debit Card
+1060,1019,Microwave,Home Appliances,244,2,2025-03-14,Los Angeles,Debit Card
+1061,792,Desk,Furniture,477,3,2025-01-24,Miami,Debit Card
+1062,916,Jacket,Clothing,124,5,2025-02-17,Houston,PayPal
+1063,1280,Gaming Mouse,Electronics,57,4,2025-03-13,San Francisco,Credit Card
+1064,1361,Jacket,Clothing,127,4,2025-02-19,Chicago,Credit Card
+1065,565,Backpack,Clothing,64,1,2025-02-26,Houston,PayPal
+1066,1449,Jeans,Clothing,77,2,2025-03-11,Miami,PayPal
+1067,1014,Washing Machine,Home Appliances,788,2,2025-03-31,New York,Debit Card
+1068,1234,Backpack,Clothing,89,1,2025-02-14,Chicago,Credit Card
+1069,1215,Monitor,Electronics,322,4,2025-03-11,Houston,Debit Card
+1070,1144,Jeans,Clothing,139,5,2025-02-25,Chicago,Debit Card
+1071,538,Headphones,Electronics,274,1,2025-01-30,Miami,PayPal
+1072,1480,iPhone 14,Electronics,1038,5,2025-02-11,Miami,Credit Card
+1073,596,iPhone 14,Electronics,1093,3,2025-01-10,San Francisco,Credit Card
+1074,945,Sneakers,Clothing,78,4,2025-01-19,Houston,PayPal
+1075,886,Jacket,Clothing,149,3,2025-01-18,Chicago,Credit Card
+1076,1224,Washing Machine,Home Appliances,773,2,2025-03-08,Chicago,Debit Card
+1077,1199,Headphones,Electronics,213,4,2025-03-11,Houston,Debit Card
+1078,1338,Gaming Mouse,Electronics,108,5,2025-02-01,Houston,Credit Card
+1079,899,iPhone 14,Electronics,1027,5,2025-03-26,Los Angeles,Debit Card
+1080,1102,Jacket,Clothing,183,3,2025-02-19,San Francisco,Credit Card
+1081,1275,Microwave,Home Appliances,211,5,2025-03-27,Houston,Credit Card
+1082,1302,Jacket,Clothing,100,4,2025-01-02,Houston,PayPal
+1083,596,Washing Machine,Home Appliances,845,5,2025-03-21,Houston,Credit Card
+1084,1170,MacBook Air,Electronics,1383,3,2025-02-03,New York,PayPal
+1085,971,Office Chair,Furniture,298,5,2025-02-22,Houston,PayPal
+1086,688,iPhone 14,Electronics,1076,5,2025-01-18,Houston,Debit Card
+1087,755,Microwave,Home Appliances,184,1,2025-03-09,Miami,PayPal
+1088,886,Coffee Maker,Home Appliances,219,5,2025-03-23,Miami,Debit Card
+1089,1415,Washing Machine,Home Appliances,771,3,2025-02-15,Miami,PayPal
+1090,521,Backpack,Clothing,163,5,2025-03-02,Houston,Credit Card
+1091,1050,Tablet,Electronics,484,5,2025-03-14,San Francisco,Credit Card
+1092,713,Backpack,Clothing,93,1,2025-03-16,New York,Debit Card
+1093,606,Jacket,Clothing,140,1,2025-02-12,Miami,Debit Card
+1094,552,Gaming Mouse,Electronics,85,2,2025-02-12,San Francisco,PayPal
+1095,1249,MacBook Air,Electronics,1342,2,2025-01-31,San Francisco,Credit Card
+1096,503,Lamp,Furniture,145,3,2025-01-31,San Francisco,PayPal
+1097,865,MacBook Air,Electronics,1373,5,2025-03-28,Houston,Credit Card
+1098,657,Jeans,Clothing,105,3,2025-03-17,Miami,Debit Card
+1099,990,Blender,Home Appliances,90,3,2025-03-10,Houston,Credit Card
+1100,1396,AirPods Pro,Electronics,312,2,2025-02-01,Miami,PayPal
+1101,1476,Headphones,Electronics,200,4,2025-03-17,San Francisco,Debit Card
+1102,1101,Backpack,Clothing,167,1,2025-01-02,Chicago,PayPal
+1103,1369,Microwave,Home Appliances,248,2,2025-03-06,Los Angeles,Debit Card
+1104,624,Washing Machine,Home Appliances,795,3,2025-02-09,Miami,Debit Card
+1105,1307,Sneakers,Clothing,101,5,2025-01-13,Chicago,PayPal
+1106,856,Backpack,Clothing,126,1,2025-03-16,Los Angeles,Credit Card
+1107,925,Desk,Furniture,545,2,2025-01-22,Miami,Debit Card
+1108,744,Tablet,Electronics,551,2,2025-01-26,Chicago,Credit Card
+1109,1232,Blender,Home Appliances,185,2,2025-03-24,Houston,PayPal
+1110,980,Lamp,Furniture,144,3,2025-02-01,Los Angeles,Debit Card
+1111,1264,Jacket,Clothing,200,5,2025-02-14,Houston,Credit Card
+1112,1090,MacBook Air,Electronics,1315,2,2025-03-30,New York,Debit Card
+1113,1382,Sneakers,Clothing,183,2,2025-03-06,Miami,Debit Card
+1114,695,Microwave,Home Appliances,209,4,2025-02-16,New York,PayPal
+1115,693,iPhone 14,Electronics,1049,1,2025-02-22,Los Angeles,Credit Card
+1116,653,Jeans,Clothing,31,3,2025-01-21,Houston,PayPal
+1117,857,Blender,Home Appliances,146,1,2025-03-26,New York,Debit Card
+1118,890,Tablet,Electronics,489,2,2025-02-02,Houston,Credit Card
+1119,1450,Office Chair,Furniture,307,2,2025-02-23,New York,PayPal
+1120,1418,T-shirt,Clothing,87,5,2025-01-12,Miami,Debit Card
+1121,1123,Office Chair,Furniture,347,5,2025-01-09,New York,Credit Card
+1122,980,Desk,Furniture,450,3,2025-02-09,New York,Credit Card
+1123,1247,Headphones,Electronics,246,5,2025-03-01,San Francisco,Credit Card
+1124,597,T-shirt,Clothing,18,3,2025-01-13,Miami,Debit Card
+1125,1165,Washing Machine,Home Appliances,777,4,2025-02-26,San Francisco,PayPal
+1126,1230,Tablet,Electronics,508,4,2025-01-09,Houston,Debit Card
+1127,725,Microwave,Home Appliances,247,5,2025-01-23,Chicago,Credit Card
+1128,764,Lamp,Furniture,143,4,2025-03-18,New York,Credit Card
+1129,706,MacBook Air,Electronics,1386,4,2025-01-08,San Francisco,PayPal
+1130,1074,Tablet,Electronics,499,2,2025-01-02,Houston,PayPal
+1131,539,Desk,Furniture,487,1,2025-02-21,New York,Debit Card
+1132,646,MacBook Air,Electronics,1280,2,2025-01-06,New York,Credit Card
+1133,1305,Desk,Furniture,522,4,2025-03-12,Houston,Debit Card
+1134,999,Headphones,Electronics,193,3,2025-01-08,New York,Debit Card
+1135,966,Gaming Mouse,Electronics,166,2,2025-01-15,Los Angeles,Credit Card
+1136,1044,MacBook Air,Electronics,1280,5,2025-01-30,Houston,PayPal
+1137,1291,T-shirt,Clothing,56,4,2025-03-11,Los Angeles,Debit Card
+1138,1454,Sofa,Furniture,1206,3,2025-02-15,Houston,Debit Card
+1139,979,AirPods Pro,Electronics,335,3,2025-02-20,Chicago,PayPal
+1140,943,Microwave,Home Appliances,235,1,2025-02-15,Miami,Debit Card
+1141,538,Tablet,Electronics,572,5,2025-01-30,Houston,Credit Card
+1142,1449,Coffee Maker,Home Appliances,151,3,2025-01-08,San Francisco,Debit Card
+1143,557,AirPods Pro,Electronics,295,1,2025-01-01,Los Angeles,PayPal
+1144,1218,Blender,Home Appliances,201,5,2025-02-11,New York,PayPal
+1145,546,Office Chair,Furniture,294,1,2025-03-13,Miami,Credit Card
+1146,1202,Lamp,Furniture,115,5,2025-02-12,Miami,Debit Card
+1147,1095,Blender,Home Appliances,202,1,2025-02-22,Los Angeles,PayPal
+1148,1332,Blender,Home Appliances,169,3,2025-02-21,Miami,Credit Card
+1149,811,Headphones,Electronics,238,5,2025-01-24,San Francisco,PayPal
+1150,1208,Sneakers,Clothing,64,2,2025-02-26,Chicago,Credit Card
+1151,1196,Desk,Furniture,447,1,2025-03-06,Chicago,PayPal
+1152,912,Tablet,Electronics,496,2,2025-01-16,San Francisco,Debit Card
+1153,1107,MacBook Air,Electronics,1292,2,2025-03-13,Chicago,Debit Card
+1154,978,Jeans,Clothing,128,1,2025-01-16,New York,Debit Card
+1155,1372,Office Chair,Furniture,306,4,2025-03-06,New York,Credit Card
+1156,795,AirPods Pro,Electronics,258,1,2025-02-26,Los Angeles,Credit Card
+1157,1014,Jeans,Clothing,93,2,2025-03-23,Miami,Credit Card
+1158,614,Jacket,Clothing,195,2,2025-03-07,Chicago,Debit Card
+1159,894,AirPods Pro,Electronics,296,1,2025-02-19,Houston,PayPal
+1160,1314,Backpack,Clothing,90,1,2025-03-13,San Francisco,Debit Card
+1161,797,Monitor,Electronics,450,4,2025-01-26,Miami,Debit Card
+1162,1469,Blender,Home Appliances,204,1,2025-01-05,Chicago,Debit Card
+1163,825,T-shirt,Clothing,35,5,2025-03-09,Chicago,PayPal
+1164,690,iPhone 14,Electronics,1009,2,2025-03-29,Miami,PayPal
+1165,1408,Jeans,Clothing,109,1,2025-01-17,Chicago,PayPal
+1166,1041,Blender,Home Appliances,135,2,2025-01-13,Los Angeles,Debit Card
+1167,931,Lamp,Furniture,51,4,2025-03-31,San Francisco,Credit Card
+1168,589,Jacket,Clothing,216,5,2025-01-06,Los Angeles,Credit Card
+1169,806,Sofa,Furniture,1274,1,2025-03-07,New York,Credit Card
+1170,924,Tablet,Electronics,504,5,2025-03-15,New York,Debit Card
+1171,765,Sofa,Furniture,1217,4,2025-02-09,New York,Debit Card
+1172,738,Desk,Furniture,544,5,2025-01-05,New York,Debit Card
+1173,1249,Backpack,Clothing,143,3,2025-02-21,Miami,PayPal
+1174,751,AirPods Pro,Electronics,301,2,2025-01-15,Chicago,Debit Card
+1175,602,Sneakers,Clothing,107,4,2025-03-16,Los Angeles,PayPal
+1176,683,Jacket,Clothing,192,4,2025-01-10,Houston,Debit Card
+1177,1191,Monitor,Electronics,339,5,2025-02-11,San Francisco,PayPal
+1178,612,MacBook Air,Electronics,1278,3,2025-03-05,Chicago,PayPal
+1179,857,iPhone 14,Electronics,1041,3,2025-03-04,San Francisco,PayPal
+1180,1373,Monitor,Electronics,447,1,2025-01-22,Chicago,PayPal
+1181,1204,T-shirt,Clothing,36,1,2025-03-24,Chicago,Debit Card
+1182,917,Blender,Home Appliances,175,5,2025-02-05,San Francisco,PayPal
+1183,1466,Monitor,Electronics,320,3,2025-01-22,Miami,Debit Card
+1184,615,Jeans,Clothing,151,5,2025-03-16,Miami,PayPal
+1185,1256,iPhone 14,Electronics,1007,2,2025-03-19,San Francisco,Credit Card
+1186,879,Monitor,Electronics,416,2,2025-03-07,New York,PayPal
+1187,551,Monitor,Electronics,344,1,2025-02-12,Los Angeles,Credit Card
+1188,812,Jacket,Clothing,166,2,2025-02-02,Houston,Debit Card
+1189,984,Microwave,Home Appliances,195,2,2025-03-03,Miami,Debit Card
+1190,669,T-shirt,Clothing,39,1,2025-01-29,Houston,Credit Card
+1191,1234,Lamp,Furniture,109,1,2025-02-12,Los Angeles,Debit Card
+1192,1432,Jeans,Clothing,49,5,2025-01-29,Chicago,Credit Card
+1193,1298,Monitor,Electronics,354,3,2025-03-10,Houston,Debit Card
+1194,894,Office Chair,Furniture,397,4,2025-02-20,Miami,Debit Card
+1195,1052,Monitor,Electronics,354,3,2025-02-07,New York,PayPal
+1196,737,Jeans,Clothing,108,4,2025-02-23,Chicago,Credit Card
+1197,1348,Monitor,Electronics,362,1,2025-01-14,New York,Credit Card
+1198,1246,AirPods Pro,Electronics,233,3,2025-03-29,Chicago,PayPal
+1199,1105,Headphones,Electronics,216,3,2025-02-25,New York,PayPal
+1200,1290,Washing Machine,Home Appliances,790,4,2025-01-08,Houston,Debit Card
+1201,1382,Tablet,Electronics,534,4,2025-03-31,Houston,Debit Card
+1202,798,AirPods Pro,Electronics,267,1,2025-02-08,Los Angeles,PayPal
+1203,1113,Desk,Furniture,452,5,2025-03-23,Chicago,Credit Card
+1204,976,Sofa,Furniture,1197,5,2025-02-05,New York,Debit Card
+1205,1135,Monitor,Electronics,350,1,2025-03-29,New York,Credit Card
+1206,1315,Tablet,Electronics,538,2,2025-03-16,Miami,Debit Card
+1207,993,Headphones,Electronics,205,5,2025-01-21,Chicago,PayPal
+1208,931,Lamp,Furniture,52,3,2025-02-07,Miami,PayPal
+1209,1461,Office Chair,Furniture,314,3,2025-02-13,Houston,Credit Card
+1210,593,Monitor,Electronics,393,4,2025-02-27,New York,Credit Card
+1211,1307,Sneakers,Clothing,117,5,2025-03-15,Los Angeles,PayPal
+1212,1367,Monitor,Electronics,425,2,2025-01-11,Houston,Debit Card
+1213,1217,Headphones,Electronics,217,5,2025-01-05,Miami,Debit Card
+1214,510,iPhone 14,Electronics,1069,2,2025-01-20,Houston,PayPal
+1215,914,Washing Machine,Home Appliances,875,4,2025-01-24,San Francisco,PayPal
+1216,526,iPhone 14,Electronics,1015,3,2025-03-04,Chicago,Debit Card
+1217,953,Desk,Furniture,534,2,2025-01-31,New York,PayPal
+1218,879,T-shirt,Clothing,71,3,2025-02-12,Houston,Credit Card
+1219,1026,Headphones,Electronics,229,5,2025-02-19,San Francisco,Debit Card
+1220,801,Blender,Home Appliances,151,5,2025-03-07,Houston,PayPal
+1221,742,Jeans,Clothing,62,3,2025-02-01,Chicago,Debit Card
+1222,750,Lamp,Furniture,100,5,2025-03-25,New York,Credit Card
+1223,1074,MacBook Air,Electronics,1372,1,2025-01-09,New York,Credit Card
+1224,719,Gaming Mouse,Electronics,167,1,2025-01-14,San Francisco,Credit Card
+1225,1454,Jacket,Clothing,156,3,2025-03-28,Houston,Debit Card
+1226,1038,Jeans,Clothing,124,1,2025-02-24,Houston,PayPal
+1227,594,Lamp,Furniture,30,5,2025-01-08,San Francisco,Debit Card
+1228,701,Backpack,Clothing,83,2,2025-03-08,Houston,PayPal
+1229,732,Tablet,Electronics,562,2,2025-02-07,Houston,PayPal
+1230,1126,Lamp,Furniture,132,3,2025-01-12,San Francisco,Credit Card
+1231,1021,Office Chair,Furniture,275,5,2025-01-20,Houston,Credit Card
+1232,956,Backpack,Clothing,74,5,2025-03-28,Miami,Credit Card
+1233,1477,Monitor,Electronics,411,5,2025-02-20,Chicago,Credit Card
+1234,646,Jacket,Clothing,173,2,2025-01-04,Chicago,Debit Card
+1235,1053,Sneakers,Clothing,115,4,2025-03-03,Houston,Credit Card
+1236,1187,Sneakers,Clothing,59,2,2025-01-20,New York,Credit Card
+1237,1141,Tablet,Electronics,550,1,2025-02-08,Houston,Credit Card
+1238,1169,Jacket,Clothing,175,5,2025-01-07,Chicago,Credit Card
+1239,1111,Monitor,Electronics,376,3,2025-03-15,Los Angeles,Credit Card
+1240,964,Sneakers,Clothing,170,1,2025-02-27,San Francisco,Credit Card
+1241,977,Backpack,Clothing,73,3,2025-02-27,Los Angeles,Credit Card
+1242,1446,Backpack,Clothing,95,1,2025-03-13,San Francisco,PayPal
+1243,786,Sofa,Furniture,1207,2,2025-02-22,Miami,Debit Card
+1244,1483,Jeans,Clothing,145,3,2025-02-24,Chicago,Debit Card
+1245,506,Headphones,Electronics,174,2,2025-01-07,Miami,Debit Card
+1246,695,Office Chair,Furniture,342,5,2025-01-13,New York,Debit Card
+1247,786,Monitor,Electronics,450,3,2025-02-14,New York,Debit Card
+1248,1113,Microwave,Home Appliances,290,3,2025-01-18,Los Angeles,Credit Card
+1249,638,Sofa,Furniture,1185,3,2025-01-18,Chicago,Debit Card
+1250,1092,Tablet,Electronics,581,1,2025-03-24,Houston,Credit Card
+1251,1308,Washing Machine,Home Appliances,800,3,2025-01-28,New York,Debit Card
+1252,1244,Gaming Mouse,Electronics,55,4,2025-02-28,Houston,PayPal
+1253,760,Sneakers,Clothing,159,2,2025-03-09,Miami,Debit Card
+1254,1026,Lamp,Furniture,99,4,2025-02-01,Miami,PayPal
+1255,1291,Jeans,Clothing,30,2,2025-02-07,Houston,Credit Card
+1256,1059,iPhone 14,Electronics,1012,1,2025-01-09,Miami,Credit Card
+1257,1219,Office Chair,Furniture,291,4,2025-01-05,New York,PayPal
+1258,861,Jeans,Clothing,116,5,2025-01-27,Houston,PayPal
+1259,1002,AirPods Pro,Electronics,279,1,2025-02-03,New York,PayPal
+1260,612,Monitor,Electronics,424,3,2025-03-23,New York,Debit Card
+1261,925,Coffee Maker,Home Appliances,213,1,2025-02-26,Houston,Debit Card
+1262,1335,Lamp,Furniture,59,1,2025-03-10,Los Angeles,Credit Card
+1263,1109,Jeans,Clothing,153,3,2025-01-02,Chicago,PayPal
+1264,1113,MacBook Air,Electronics,1341,5,2025-03-09,Miami,Debit Card
+1265,1017,Monitor,Electronics,441,4,2025-01-12,San Francisco,Debit Card
+1266,733,Gaming Mouse,Electronics,142,1,2025-01-22,New York,PayPal
+1267,1387,Microwave,Home Appliances,185,2,2025-01-22,Houston,Debit Card
+1268,570,Office Chair,Furniture,352,3,2025-01-01,Houston,PayPal
+1269,982,Microwave,Home Appliances,264,2,2025-02-06,Miami,PayPal
+1270,766,Backpack,Clothing,161,2,2025-03-14,Chicago,PayPal
+1271,734,Sneakers,Clothing,115,2,2025-01-23,Chicago,Credit Card
+1272,528,Jacket,Clothing,164,1,2025-01-10,Chicago,PayPal
+1273,1068,Headphones,Electronics,194,2,2025-03-01,New York,Credit Card
+1274,980,iPhone 14,Electronics,1050,5,2025-01-26,Los Angeles,Debit Card
+1275,1252,T-shirt,Clothing,72,3,2025-03-22,San Francisco,Credit Card
+1276,563,Microwave,Home Appliances,194,4,2025-01-27,Chicago,PayPal
+1277,841,T-shirt,Clothing,7,3,2025-02-02,Chicago,Credit Card
+1278,702,iPhone 14,Electronics,1042,5,2025-01-05,New York,Debit Card
+1279,722,Tablet,Electronics,503,5,2025-01-19,New York,PayPal
+1280,1081,Desk,Furniture,426,2,2025-02-13,San Francisco,Credit Card
+1281,1116,Sneakers,Clothing,67,4,2025-02-13,San Francisco,Credit Card
+1282,654,iPhone 14,Electronics,1063,1,2025-03-16,Houston,PayPal
+1283,1436,iPhone 14,Electronics,1017,5,2025-01-24,New York,Credit Card
+1284,740,T-shirt,Clothing,57,2,2025-01-11,Houston,PayPal
+1285,672,Desk,Furniture,522,2,2025-02-26,Chicago,Credit Card
+1286,771,AirPods Pro,Electronics,278,3,2025-01-12,Los Angeles,Debit Card
+1287,971,Sofa,Furniture,1203,2,2025-02-17,Los Angeles,PayPal
+1288,620,Microwave,Home Appliances,241,2,2025-01-12,San Francisco,Debit Card
+1289,1316,Microwave,Home Appliances,198,5,2025-02-08,Miami,PayPal
+1290,1222,Monitor,Electronics,368,1,2025-01-27,Chicago,Debit Card
+1291,1373,Washing Machine,Home Appliances,788,1,2025-03-02,Chicago,Credit Card
+1292,1390,AirPods Pro,Electronics,343,1,2025-02-23,San Francisco,Debit Card
+1293,854,T-shirt,Clothing,76,2,2025-03-11,New York,Credit Card
+1294,932,Backpack,Clothing,53,1,2025-02-06,New York,Debit Card
+1295,1103,AirPods Pro,Electronics,332,3,2025-01-02,Miami,Credit Card
+1296,1447,MacBook Air,Electronics,1272,3,2025-01-08,Miami,Credit Card
+1297,1256,Monitor,Electronics,363,5,2025-02-16,Miami,PayPal
+1298,797,Backpack,Clothing,161,1,2025-02-16,Chicago,PayPal
+1299,862,iPhone 14,Electronics,1057,2,2025-03-03,Miami,PayPal
+1300,728,Gaming Mouse,Electronics,68,1,2025-01-26,Los Angeles,Credit Card
+1301,1319,Headphones,Electronics,237,4,2025-03-27,New York,PayPal
+1302,545,MacBook Air,Electronics,1322,1,2025-03-06,Los Angeles,Debit Card
+1303,1321,Tablet,Electronics,473,4,2025-01-30,New York,PayPal
+1304,900,Sofa,Furniture,1224,3,2025-02-07,Chicago,Debit Card
+1305,714,Washing Machine,Home Appliances,839,3,2025-01-18,Los Angeles,Debit Card
+1306,716,Washing Machine,Home Appliances,778,3,2025-02-09,Chicago,Debit Card
+1307,1349,Sneakers,Clothing,171,4,2025-02-05,Houston,Debit Card
+1308,1283,MacBook Air,Electronics,1269,3,2025-01-22,San Francisco,Debit Card
+1309,1141,AirPods Pro,Electronics,349,1,2025-01-21,Chicago,Credit Card
+1310,812,Washing Machine,Home Appliances,779,5,2025-02-07,Houston,PayPal
+1311,1167,Sofa,Furniture,1242,2,2025-01-19,Chicago,Credit Card
+1312,815,AirPods Pro,Electronics,287,2,2025-01-27,Chicago,Debit Card
+1313,898,AirPods Pro,Electronics,322,2,2025-03-30,Los Angeles,Credit Card
+1314,1115,Backpack,Clothing,163,2,2025-02-17,Chicago,PayPal
+1315,658,Gaming Mouse,Electronics,117,5,2025-01-23,Miami,PayPal
+1316,1392,Lamp,Furniture,96,4,2025-01-15,Houston,PayPal
+1317,1110,Monitor,Electronics,330,2,2025-02-28,Los Angeles,Credit Card
+1318,1180,Microwave,Home Appliances,229,4,2025-01-02,Houston,PayPal
+1319,932,Jeans,Clothing,132,1,2025-02-04,New York,Credit Card
+1320,607,Jeans,Clothing,50,4,2025-02-03,San Francisco,PayPal
+1321,645,Gaming Mouse,Electronics,52,1,2025-02-03,Los Angeles,PayPal
+1322,1238,T-shirt,Clothing,12,4,2025-02-24,Houston,Debit Card
+1323,1185,Coffee Maker,Home Appliances,199,3,2025-03-06,Los Angeles,Debit Card
+1324,1240,Blender,Home Appliances,113,1,2025-03-21,New York,Debit Card
+1325,703,Blender,Home Appliances,181,4,2025-01-22,New York,Credit Card
+1326,1282,T-shirt,Clothing,-2,2,2025-01-31,Houston,Debit Card
+1327,1314,Coffee Maker,Home Appliances,158,3,2025-01-21,San Francisco,PayPal
+1328,1109,Lamp,Furniture,33,4,2025-03-01,Chicago,Debit Card
+1329,513,Desk,Furniture,473,5,2025-01-11,Los Angeles,PayPal
+1330,1141,iPhone 14,Electronics,1060,5,2025-03-17,Los Angeles,Credit Card
+1331,963,Headphones,Electronics,198,3,2025-03-29,Houston,Debit Card
+1332,1258,Jeans,Clothing,115,5,2025-03-30,Miami,Debit Card
+1333,1222,AirPods Pro,Electronics,264,4,2025-03-26,Miami,Credit Card
+1334,808,Gaming Mouse,Electronics,148,3,2025-03-17,Chicago,Credit Card
+1335,897,Jacket,Clothing,151,5,2025-03-11,New York,Debit Card
+1336,1320,iPhone 14,Electronics,1038,5,2025-02-08,Miami,PayPal
+1337,972,Sofa,Furniture,1199,5,2025-03-26,Los Angeles,Debit Card
+1338,1364,Backpack,Clothing,45,1,2025-03-15,New York,Debit Card
+1339,949,Jacket,Clothing,176,5,2025-03-09,New York,Debit Card
+1340,906,Monitor,Electronics,419,2,2025-03-16,Chicago,Credit Card
+1341,1339,Coffee Maker,Home Appliances,172,4,2025-03-11,Los Angeles,Debit Card
+1342,1473,Desk,Furniture,456,4,2025-01-07,Chicago,Credit Card
+1343,1440,Jeans,Clothing,148,4,2025-01-21,Chicago,PayPal
+1344,1022,AirPods Pro,Electronics,261,2,2025-02-12,Los Angeles,PayPal
+1345,1333,AirPods Pro,Electronics,325,2,2025-03-07,Los Angeles,PayPal
+1346,556,Backpack,Clothing,123,3,2025-02-22,New York,Credit Card
+1347,1423,Desk,Furniture,494,3,2025-02-02,Houston,Credit Card
+1348,1230,Headphones,Electronics,194,4,2025-03-05,Chicago,Credit Card
+1349,627,Headphones,Electronics,298,2,2025-01-08,Los Angeles,Credit Card
+1350,1274,Washing Machine,Home Appliances,858,4,2025-01-22,San Francisco,Debit Card
+1351,754,iPhone 14,Electronics,987,4,2025-01-08,Houston,Credit Card
+1352,906,Sneakers,Clothing,178,2,2025-03-06,Miami,Debit Card
+1353,860,Sneakers,Clothing,127,4,2025-03-11,Chicago,Debit Card
+1354,1170,Desk,Furniture,466,1,2025-03-26,Houston,PayPal
+1355,1238,Tablet,Electronics,568,2,2025-02-07,New York,Credit Card
+1356,996,Jacket,Clothing,204,1,2025-01-28,Houston,Credit Card
+1357,766,Monitor,Electronics,408,4,2025-03-08,Los Angeles,Credit Card
+1358,975,Desk,Furniture,539,3,2025-03-02,Los Angeles,Debit Card
+1359,803,Office Chair,Furniture,336,1,2025-03-09,Houston,Debit Card
+1360,981,Desk,Furniture,510,2,2025-02-08,Los Angeles,Credit Card
+1361,1158,Jacket,Clothing,200,3,2025-03-27,San Francisco,Debit Card
+1362,654,MacBook Air,Electronics,1333,4,2025-03-09,San Francisco,Credit Card
+1363,1020,Monitor,Electronics,370,1,2025-02-21,Houston,PayPal
+1364,1289,Headphones,Electronics,262,1,2025-01-03,Los Angeles,Credit Card
+1365,1071,Jeans,Clothing,80,1,2025-03-27,Miami,PayPal
+1366,848,Office Chair,Furniture,383,4,2025-03-29,Los Angeles,Debit Card
+1367,704,Coffee Maker,Home Appliances,169,5,2025-01-18,New York,Credit Card
+1368,996,Blender,Home Appliances,209,4,2025-03-11,Chicago,Debit Card
+1369,773,Desk,Furniture,499,3,2025-01-05,Los Angeles,Debit Card
+1370,746,MacBook Air,Electronics,1347,4,2025-01-05,Chicago,Debit Card
+1371,602,Tablet,Electronics,586,1,2025-02-28,New York,Debit Card
+1372,1329,Sofa,Furniture,1240,2,2025-01-04,Houston,Debit Card
+1373,659,AirPods Pro,Electronics,298,1,2025-02-13,Los Angeles,PayPal
+1374,899,T-shirt,Clothing,26,1,2025-01-18,New York,Debit Card
+1375,978,Jacket,Clothing,102,5,2025-02-09,New York,Credit Card
+1376,997,Monitor,Electronics,374,4,2025-02-12,Los Angeles,Credit Card
+1377,1032,Microwave,Home Appliances,288,3,2025-01-27,Miami,Debit Card
+1378,937,T-shirt,Clothing,4,4,2025-02-27,Miami,PayPal
+1379,1236,Sneakers,Clothing,147,3,2025-01-22,Los Angeles,Debit Card
+1380,1046,Office Chair,Furniture,307,5,2025-02-02,Los Angeles,Credit Card
+1381,895,MacBook Air,Electronics,1387,5,2025-01-31,Houston,Debit Card
+1382,1472,Lamp,Furniture,131,4,2025-03-09,Miami,Debit Card
+1383,598,Headphones,Electronics,202,1,2025-02-12,San Francisco,Credit Card
+1384,1490,Blender,Home Appliances,203,3,2025-01-23,Chicago,PayPal
+1385,609,Monitor,Electronics,361,3,2025-01-27,Los Angeles,Credit Card
+1386,983,Backpack,Clothing,107,3,2025-02-14,Houston,PayPal
+1387,1048,Headphones,Electronics,211,1,2025-01-28,San Francisco,Debit Card
+1388,915,Jeans,Clothing,80,3,2025-03-21,Chicago,PayPal
+1389,1212,T-shirt,Clothing,63,3,2025-03-18,New York,Credit Card
+1390,984,Office Chair,Furniture,321,4,2025-01-22,Chicago,Credit Card
+1391,1025,AirPods Pro,Electronics,224,4,2025-01-22,Chicago,Credit Card
+1392,1201,Backpack,Clothing,130,4,2025-03-15,Chicago,Debit Card
+1393,1137,Jeans,Clothing,31,5,2025-03-15,San Francisco,PayPal
+1394,1098,Office Chair,Furniture,359,4,2025-01-24,Los Angeles,PayPal
+1395,583,Coffee Maker,Home Appliances,133,2,2025-02-09,Chicago,Debit Card
+1396,953,Blender,Home Appliances,130,1,2025-01-22,New York,PayPal
+1397,1399,Gaming Mouse,Electronics,123,5,2025-03-20,San Francisco,Credit Card
+1398,884,Desk,Furniture,526,4,2025-01-17,Los Angeles,Debit Card
+1399,607,Gaming Mouse,Electronics,81,4,2025-03-24,Miami,Debit Card
+1400,812,Monitor,Electronics,386,5,2025-03-01,San Francisco,Debit Card
+1401,1361,AirPods Pro,Electronics,306,2,2025-03-25,San Francisco,Debit Card
+1402,940,Jeans,Clothing,65,1,2025-01-17,Houston,PayPal
+1403,992,Sofa,Furniture,1229,5,2025-02-27,Los Angeles,PayPal
+1404,889,Tablet,Electronics,583,3,2025-01-06,New York,PayPal
+1405,590,iPhone 14,Electronics,1079,3,2025-03-01,New York,Debit Card
+1406,594,Monitor,Electronics,446,1,2025-02-04,San Francisco,Credit Card
+1407,709,MacBook Air,Electronics,1277,1,2025-02-09,San Francisco,Credit Card
+1408,917,Tablet,Electronics,520,1,2025-03-16,Los Angeles,Credit Card
+1409,1234,Desk,Furniture,492,5,2025-02-19,Los Angeles,PayPal
+1410,859,Office Chair,Furniture,379,5,2025-01-22,Chicago,Debit Card
+1411,1367,Backpack,Clothing,76,5,2025-02-17,Los Angeles,Credit Card
+1412,939,Monitor,Electronics,366,5,2025-01-17,Houston,Debit Card
+1413,1377,Headphones,Electronics,283,1,2025-01-14,Los Angeles,Credit Card
+1414,1373,iPhone 14,Electronics,1022,1,2025-02-11,Los Angeles,PayPal
+1415,1422,Lamp,Furniture,132,4,2025-03-24,New York,Debit Card
+1416,812,Monitor,Electronics,406,2,2025-03-04,Los Angeles,Debit Card
+1417,676,Jacket,Clothing,105,4,2025-02-16,Chicago,Debit Card
+1418,579,Desk,Furniture,464,2,2025-02-27,Los Angeles,PayPal
+1419,1329,Tablet,Electronics,514,5,2025-03-07,Chicago,Debit Card
+1420,931,Gaming Mouse,Electronics,171,1,2025-01-02,Chicago,Debit Card
+1421,728,Tablet,Electronics,519,1,2025-03-21,Houston,PayPal
+1422,779,Desk,Furniture,498,1,2025-01-11,Los Angeles,PayPal
+1423,1355,Gaming Mouse,Electronics,150,5,2025-03-12,Los Angeles,Credit Card
+1424,561,Tablet,Electronics,499,5,2025-03-22,Los Angeles,PayPal
+1425,905,AirPods Pro,Electronics,242,2,2025-03-19,San Francisco,Debit Card
+1426,660,AirPods Pro,Electronics,237,3,2025-02-04,San Francisco,Credit Card
+1427,885,MacBook Air,Electronics,1395,2,2025-01-31,Los Angeles,Debit Card
+1428,1049,Sneakers,Clothing,73,4,2025-02-20,San Francisco,Debit Card
+1429,1266,Lamp,Furniture,55,3,2025-01-04,Chicago,PayPal
+1430,519,Lamp,Furniture,45,4,2025-01-17,Los Angeles,Debit Card
+1431,732,Jacket,Clothing,107,4,2025-01-30,New York,Credit Card
+1432,760,Gaming Mouse,Electronics,121,1,2025-02-11,New York,PayPal
+1433,1272,MacBook Air,Electronics,1323,5,2025-02-27,Chicago,Debit Card
+1434,999,Blender,Home Appliances,188,1,2025-02-03,Chicago,Debit Card
+1435,770,Coffee Maker,Home Appliances,150,4,2025-01-10,New York,PayPal
+1436,1232,Backpack,Clothing,163,4,2025-03-28,Houston,PayPal
+1437,1289,Sneakers,Clothing,72,5,2025-03-12,Miami,PayPal
+1438,977,Jeans,Clothing,134,2,2025-01-01,Chicago,Debit Card
+1439,1416,Coffee Maker,Home Appliances,185,1,2025-02-09,New York,Debit Card
+1440,1142,Tablet,Electronics,480,5,2025-01-08,Miami,Credit Card
+1441,1139,Sneakers,Clothing,73,1,2025-01-05,San Francisco,Debit Card
+1442,1495,AirPods Pro,Electronics,348,1,2025-01-09,Houston,Debit Card
+1443,1319,Coffee Maker,Home Appliances,193,1,2025-03-31,San Francisco,Credit Card
+1444,1064,Jacket,Clothing,202,1,2025-03-21,San Francisco,PayPal
+1445,570,Gaming Mouse,Electronics,179,2,2025-03-15,New York,Credit Card
+1446,1464,Sofa,Furniture,1289,5,2025-01-15,Miami,Credit Card
+1447,1378,Microwave,Home Appliances,189,4,2025-02-05,Houston,PayPal
+1448,1019,Sneakers,Clothing,158,4,2025-01-30,San Francisco,PayPal
+1449,542,Backpack,Clothing,122,4,2025-02-19,Miami,PayPal
+1450,1043,MacBook Air,Electronics,1291,2,2025-03-02,San Francisco,Credit Card
+1451,1481,Washing Machine,Home Appliances,887,2,2025-02-07,Houston,PayPal
+1452,1034,Office Chair,Furniture,310,4,2025-01-03,Houston,Debit Card
+1453,1235,MacBook Air,Electronics,1270,5,2025-03-17,Chicago,Credit Card
+1454,1261,iPhone 14,Electronics,1091,2,2025-01-16,Chicago,PayPal
+1455,1156,Monitor,Electronics,378,3,2025-01-28,Miami,PayPal
+1456,712,AirPods Pro,Electronics,336,2,2025-01-05,Los Angeles,Credit Card
+1457,1264,iPhone 14,Electronics,1007,1,2025-01-17,Houston,PayPal
+1458,790,Tablet,Electronics,590,3,2025-03-09,Miami,Debit Card
+1459,558,Blender,Home Appliances,160,3,2025-01-20,Miami,Debit Card
+1460,906,T-shirt,Clothing,102,1,2025-03-11,Houston,Debit Card
+1461,1346,Backpack,Clothing,78,1,2025-01-05,San Francisco,Debit Card
+1462,1059,MacBook Air,Electronics,1298,5,2025-03-21,Houston,PayPal
+1463,788,Backpack,Clothing,114,5,2025-03-14,Houston,PayPal
+1464,1321,Coffee Maker,Home Appliances,240,4,2025-03-27,New York,PayPal
+1465,1020,Jacket,Clothing,212,5,2025-01-13,Houston,PayPal
+1466,992,MacBook Air,Electronics,1303,2,2025-01-04,Los Angeles,Credit Card
+1467,1233,Sofa,Furniture,1213,2,2025-01-16,San Francisco,PayPal
+1468,568,Sneakers,Clothing,78,1,2025-01-07,San Francisco,Debit Card
+1469,1438,Microwave,Home Appliances,199,1,2025-02-17,Chicago,Credit Card
+1470,1468,Jacket,Clothing,199,4,2025-02-06,Los Angeles,PayPal
+1471,633,Washing Machine,Home Appliances,811,5,2025-01-25,San Francisco,PayPal
+1472,1028,MacBook Air,Electronics,1364,2,2025-01-20,Houston,Credit Card
+1473,662,Coffee Maker,Home Appliances,232,4,2025-02-23,Miami,Debit Card
+1474,546,Coffee Maker,Home Appliances,205,2,2025-03-02,San Francisco,PayPal
+1475,529,Tablet,Electronics,542,4,2025-03-11,Los Angeles,Credit Card
+1476,935,Sneakers,Clothing,73,1,2025-01-14,Los Angeles,Credit Card
+1477,1002,Jeans,Clothing,157,1,2025-03-16,San Francisco,Credit Card
+1478,606,Office Chair,Furniture,312,2,2025-01-04,Miami,PayPal
+1479,1178,Sneakers,Clothing,118,5,2025-02-13,Chicago,PayPal
+1480,886,Tablet,Electronics,557,1,2025-03-12,Miami,Credit Card
+1481,976,Tablet,Electronics,576,3,2025-02-22,Los Angeles,PayPal
+1482,534,Jacket,Clothing,183,5,2025-03-06,San Francisco,PayPal
+1483,597,Gaming Mouse,Electronics,66,5,2025-02-11,San Francisco,Debit Card
+1484,972,Blender,Home Appliances,178,3,2025-01-06,Los Angeles,Debit Card
+1485,808,Tablet,Electronics,485,3,2025-01-15,San Francisco,Debit Card
+1486,630,iPhone 14,Electronics,1008,2,2025-01-27,Houston,PayPal
+1487,1386,Desk,Furniture,442,2,2025-03-20,Miami,PayPal
+1488,878,Sneakers,Clothing,176,5,2025-03-07,Chicago,Credit Card
+1489,785,Jacket,Clothing,114,5,2025-03-26,Los Angeles,Debit Card
+1490,935,Jeans,Clothing,62,1,2025-01-04,Miami,Credit Card
+1491,911,Microwave,Home Appliances,245,3,2025-03-24,Chicago,Credit Card
+1492,813,Gaming Mouse,Electronics,177,3,2025-01-20,Houston,Debit Card
+1493,1091,Blender,Home Appliances,157,2,2025-02-07,Miami,Debit Card
+1494,1478,MacBook Air,Electronics,1280,5,2025-01-28,Los Angeles,Debit Card
+1495,1087,Microwave,Home Appliances,213,2,2025-01-23,New York,Credit Card
+1496,1034,Sofa,Furniture,1171,2,2025-03-01,San Francisco,Credit Card
+1497,626,Tablet,Electronics,480,5,2025-01-25,Houston,Credit Card
+1498,1088,Sneakers,Clothing,107,5,2025-03-16,Los Angeles,Credit Card
+1499,1027,AirPods Pro,Electronics,323,1,2025-02-08,New York,Credit Card
+1500,1215,Desk,Furniture,471,2,2025-03-03,New York,Credit Card
+1501,1192,T-shirt,Clothing,65,2,2025-02-17,New York,PayPal
+1502,1350,T-shirt,Clothing,125,2,2025-02-26,Chicago,Debit Card
+1503,1311,Washing Machine,Home Appliances,879,1,2025-01-30,New York,PayPal
+1504,965,Headphones,Electronics,245,5,2025-03-14,Houston,Debit Card
+1505,597,Office Chair,Furniture,346,5,2025-01-31,Los Angeles,Credit Card
+1506,584,Desk,Furniture,439,2,2025-03-08,New York,Debit Card
+1507,607,Sofa,Furniture,1272,2,2025-01-04,Miami,Debit Card
+1508,695,Jacket,Clothing,153,5,2025-02-25,Miami,PayPal
+1509,1469,Office Chair,Furniture,394,5,2025-01-02,San Francisco,Debit Card
+1510,778,Sneakers,Clothing,98,3,2025-02-21,Chicago,PayPal
+1511,1292,iPhone 14,Electronics,1048,2,2025-01-31,Los Angeles,Credit Card
+1512,726,iPhone 14,Electronics,1003,2,2025-01-17,Houston,Debit Card
+1513,1492,Office Chair,Furniture,308,5,2025-01-13,Miami,PayPal
+1514,674,Desk,Furniture,447,1,2025-02-02,Houston,PayPal
+1515,986,Sofa,Furniture,1245,3,2025-03-09,San Francisco,Debit Card
+1516,551,Blender,Home Appliances,95,5,2025-02-17,New York,PayPal
+1517,1265,Headphones,Electronics,176,3,2025-01-18,Chicago,Credit Card
+1518,1333,iPhone 14,Electronics,1077,2,2025-03-15,Los Angeles,Credit Card
+1519,1391,T-shirt,Clothing,43,2,2025-03-24,Chicago,PayPal
+1520,798,Microwave,Home Appliances,182,4,2025-01-29,New York,PayPal
+1521,992,Microwave,Home Appliances,264,5,2025-01-12,New York,PayPal
+1522,729,AirPods Pro,Electronics,272,5,2025-01-23,Chicago,Debit Card
+1523,1134,iPhone 14,Electronics,989,4,2025-01-26,Los Angeles,Credit Card
+1524,631,Office Chair,Furniture,284,5,2025-03-18,Houston,Debit Card
+1525,630,Backpack,Clothing,103,3,2025-03-24,San Francisco,Debit Card
+1526,1331,Jeans,Clothing,77,5,2025-03-14,Miami,PayPal
+1527,730,Sofa,Furniture,1272,2,2025-02-04,Miami,Credit Card
+1528,1241,MacBook Air,Electronics,1336,2,2025-02-18,Miami,Debit Card
+1529,913,Office Chair,Furniture,311,2,2025-02-05,Miami,PayPal
+1530,869,Office Chair,Furniture,322,3,2025-01-30,San Francisco,Credit Card
+1531,922,Office Chair,Furniture,346,2,2025-03-10,Miami,Debit Card
+1532,1457,Jacket,Clothing,100,5,2025-03-23,San Francisco,PayPal
+1533,1228,AirPods Pro,Electronics,265,2,2025-01-22,Chicago,Debit Card
+1534,1433,Jeans,Clothing,137,1,2025-01-01,New York,Debit Card
+1535,1356,Blender,Home Appliances,90,5,2025-02-17,New York,Credit Card
+1536,1146,Gaming Mouse,Electronics,137,4,2025-02-24,New York,Debit Card
+1537,951,Headphones,Electronics,169,3,2025-03-01,Miami,PayPal
+1538,840,Lamp,Furniture,141,4,2025-03-24,Houston,Credit Card
+1539,501,iPhone 14,Electronics,1007,5,2025-01-26,Chicago,Debit Card
+1540,822,Office Chair,Furniture,332,2,2025-02-20,San Francisco,Credit Card
+1541,1271,Sneakers,Clothing,73,2,2025-02-19,Miami,PayPal
+1542,692,Lamp,Furniture,37,1,2025-01-01,Miami,PayPal
+1543,1218,Microwave,Home Appliances,290,4,2025-02-21,Houston,PayPal
+1544,1180,Office Chair,Furniture,271,4,2025-01-24,New York,PayPal
+1545,930,Tablet,Electronics,547,5,2025-03-04,Chicago,Credit Card
+1546,695,Monitor,Electronics,432,5,2025-03-24,Miami,Credit Card
+1547,1151,Sneakers,Clothing,114,1,2025-01-28,San Francisco,Debit Card
+1548,590,Gaming Mouse,Electronics,72,2,2025-01-24,Los Angeles,Debit Card
+1549,983,Monitor,Electronics,320,5,2025-01-30,Los Angeles,Credit Card
+1550,808,MacBook Air,Electronics,1369,3,2025-01-10,Chicago,PayPal
+1551,676,Tablet,Electronics,527,4,2025-03-22,Houston,Credit Card
+1552,743,Backpack,Clothing,129,5,2025-03-30,San Francisco,Credit Card
+1553,641,Monitor,Electronics,351,4,2025-03-22,Chicago,Credit Card
+1554,754,Desk,Furniture,432,1,2025-01-02,New York,Debit Card
+1555,1190,Tablet,Electronics,551,5,2025-01-04,Houston,Credit Card
+1556,1071,Washing Machine,Home Appliances,840,2,2025-01-31,Houston,PayPal
+1557,1419,AirPods Pro,Electronics,249,1,2025-02-22,Miami,Credit Card
+1558,517,MacBook Air,Electronics,1308,3,2025-01-31,Miami,Debit Card
+1559,1458,Monitor,Electronics,431,5,2025-02-09,Los Angeles,Credit Card
+1560,1128,Lamp,Furniture,120,3,2025-02-11,Miami,PayPal
+1561,1260,Monitor,Electronics,338,5,2025-01-08,Houston,Debit Card
+1562,1295,MacBook Air,Electronics,1354,5,2025-02-02,San Francisco,Credit Card
+1563,877,Backpack,Clothing,121,1,2025-01-01,Houston,PayPal
+1564,1343,T-shirt,Clothing,96,3,2025-03-28,San Francisco,Credit Card
+1565,704,Blender,Home Appliances,217,3,2025-01-20,Houston,Credit Card
+1566,676,Office Chair,Furniture,396,1,2025-01-13,New York,Debit Card
+1567,1011,Jeans,Clothing,139,2,2025-01-01,Miami,Debit Card
+1568,1117,AirPods Pro,Electronics,295,1,2025-03-14,Miami,Credit Card
+1569,640,Backpack,Clothing,41,2,2025-03-02,San Francisco,Debit Card
+1570,1294,Washing Machine,Home Appliances,818,3,2025-02-25,Houston,Credit Card
+1571,699,Headphones,Electronics,246,3,2025-01-05,Chicago,Credit Card
+1572,642,Washing Machine,Home Appliances,848,4,2025-01-22,San Francisco,Credit Card
+1573,578,Sofa,Furniture,1297,1,2025-01-20,Los Angeles,Debit Card
+1574,658,iPhone 14,Electronics,981,3,2025-01-29,Houston,Debit Card
+1575,618,Desk,Furniture,504,3,2025-03-06,San Francisco,Credit Card
+1576,798,Desk,Furniture,498,4,2025-03-30,Los Angeles,Credit Card
+1577,945,Jeans,Clothing,84,1,2025-02-12,Los Angeles,Debit Card
+1578,898,Headphones,Electronics,186,5,2025-03-22,San Francisco,PayPal
+1579,1157,Sofa,Furniture,1275,5,2025-01-01,Houston,Credit Card
+1580,1051,Backpack,Clothing,64,1,2025-02-02,Miami,Credit Card
+1581,502,Headphones,Electronics,258,5,2025-03-26,Los Angeles,PayPal
+1582,1227,Jacket,Clothing,120,1,2025-01-09,New York,PayPal
+1583,710,Office Chair,Furniture,318,3,2025-03-24,San Francisco,PayPal
+1584,1287,Sofa,Furniture,1239,4,2025-01-04,New York,Debit Card
+1585,1144,Blender,Home Appliances,144,3,2025-03-06,New York,Debit Card
+1586,832,Lamp,Furniture,88,5,2025-03-31,San Francisco,Debit Card
+1587,821,iPhone 14,Electronics,1073,4,2025-03-15,Miami,Debit Card
+1588,708,Coffee Maker,Home Appliances,235,3,2025-03-06,Houston,Debit Card
+1589,719,Gaming Mouse,Electronics,121,1,2025-01-21,San Francisco,Credit Card
+1590,1022,iPhone 14,Electronics,1009,1,2025-03-06,Chicago,PayPal
+1591,539,AirPods Pro,Electronics,321,4,2025-02-10,Chicago,Debit Card
+1592,1418,Desk,Furniture,544,1,2025-01-04,Miami,Debit Card
+1593,1312,Backpack,Clothing,140,2,2025-02-25,Los Angeles,Credit Card
+1594,1496,Tablet,Electronics,480,3,2025-02-17,Chicago,Debit Card
+1595,833,Washing Machine,Home Appliances,799,4,2025-01-28,New York,PayPal
+1596,921,Sneakers,Clothing,166,3,2025-02-08,Los Angeles,Credit Card
+1597,982,Blender,Home Appliances,110,3,2025-01-10,San Francisco,Debit Card
+1598,641,Tablet,Electronics,545,4,2025-02-03,New York,Credit Card
+1599,790,Office Chair,Furniture,284,1,2025-01-11,Miami,Debit Card
+1600,1370,Office Chair,Furniture,375,4,2025-02-21,Miami,Credit Card
+1601,512,MacBook Air,Electronics,1354,5,2025-02-05,Houston,Debit Card
+1602,1495,Office Chair,Furniture,305,4,2025-03-23,San Francisco,Debit Card
+1603,1365,Lamp,Furniture,86,5,2025-02-12,Miami,PayPal
+1604,1435,Gaming Mouse,Electronics,100,3,2025-02-15,Chicago,Credit Card
+1605,1039,Tablet,Electronics,500,4,2025-03-25,Houston,Debit Card
+1606,936,Tablet,Electronics,501,1,2025-02-01,Los Angeles,PayPal
+1607,1208,MacBook Air,Electronics,1354,3,2025-01-08,Los Angeles,PayPal
+1608,1181,Sneakers,Clothing,163,1,2025-02-14,Miami,Debit Card
+1609,526,Office Chair,Furniture,307,5,2025-01-09,Miami,Debit Card
+1610,1207,Monitor,Electronics,427,2,2025-02-23,San Francisco,Credit Card
+1611,973,Office Chair,Furniture,398,2,2025-03-23,Chicago,PayPal
+1612,855,Sofa,Furniture,1228,4,2025-02-24,Houston,PayPal
+1613,1448,Headphones,Electronics,198,5,2025-01-04,Houston,Debit Card
+1614,1259,Washing Machine,Home Appliances,839,3,2025-03-10,Chicago,Debit Card
+1615,1130,Gaming Mouse,Electronics,142,1,2025-03-20,Los Angeles,Credit Card
+1616,604,Gaming Mouse,Electronics,50,3,2025-03-18,Chicago,PayPal
+1617,585,Gaming Mouse,Electronics,178,1,2025-03-05,Miami,Credit Card
+1618,898,Tablet,Electronics,556,2,2025-03-31,San Francisco,Debit Card
+1619,853,Sneakers,Clothing,69,5,2025-03-10,Houston,PayPal
+1620,1416,Gaming Mouse,Electronics,124,2,2025-01-21,Houston,Debit Card
+1621,1004,Microwave,Home Appliances,173,1,2025-03-19,San Francisco,Debit Card
+1622,751,AirPods Pro,Electronics,321,5,2025-03-03,Los Angeles,Debit Card
+1623,1177,Jacket,Clothing,156,5,2025-02-25,Miami,Credit Card
+1624,687,Headphones,Electronics,248,3,2025-03-07,Los Angeles,PayPal
+1625,1371,Coffee Maker,Home Appliances,221,5,2025-01-15,Houston,Credit Card
+1626,852,MacBook Air,Electronics,1369,3,2025-01-02,Chicago,Credit Card
+1627,706,Blender,Home Appliances,165,3,2025-01-25,Chicago,Credit Card
+1628,524,Washing Machine,Home Appliances,894,2,2025-01-17,Chicago,Debit Card
+1629,744,Monitor,Electronics,389,5,2025-02-09,Chicago,Debit Card
+1630,1243,Jacket,Clothing,172,2,2025-02-05,Miami,PayPal
+1631,713,MacBook Air,Electronics,1289,5,2025-03-31,New York,PayPal
+1632,646,Backpack,Clothing,75,5,2025-01-15,Miami,Credit Card
+1633,848,Monitor,Electronics,395,2,2025-03-30,New York,Debit Card
+1634,717,Blender,Home Appliances,174,5,2025-02-07,Houston,Credit Card
+1635,652,Blender,Home Appliances,214,3,2025-03-08,Houston,Credit Card
+1636,519,Coffee Maker,Home Appliances,130,5,2025-03-12,Houston,Debit Card
+1637,1211,Tablet,Electronics,543,5,2025-02-12,San Francisco,Credit Card
+1638,1230,Jacket,Clothing,93,2,2025-01-24,Houston,PayPal
+1639,951,Office Chair,Furniture,347,1,2025-01-04,Houston,Credit Card
+1640,903,Office Chair,Furniture,352,4,2025-01-14,Los Angeles,Debit Card
+1641,1277,Blender,Home Appliances,138,3,2025-01-21,Houston,Debit Card
+1642,790,Jeans,Clothing,35,2,2025-01-29,San Francisco,PayPal
+1643,869,Jacket,Clothing,152,5,2025-01-06,San Francisco,PayPal
+1644,540,T-shirt,Clothing,25,3,2025-02-11,New York,Credit Card
+1645,1195,AirPods Pro,Electronics,334,5,2025-02-27,Chicago,Debit Card
+1646,669,Jeans,Clothing,112,4,2025-03-25,Los Angeles,PayPal
+1647,1121,Sofa,Furniture,1198,4,2025-01-05,Los Angeles,Debit Card
+1648,1236,Sneakers,Clothing,65,3,2025-02-11,Miami,Debit Card
+1649,958,Microwave,Home Appliances,205,1,2025-02-26,Houston,PayPal
+1650,765,iPhone 14,Electronics,973,4,2025-02-12,New York,Debit Card
+1651,1231,Desk,Furniture,424,3,2025-02-10,Chicago,PayPal
+1652,1322,Blender,Home Appliances,170,5,2025-02-18,New York,Credit Card
+1653,1299,Headphones,Electronics,224,2,2025-02-27,Chicago,PayPal
+1654,1126,Office Chair,Furniture,362,3,2025-03-03,Miami,Credit Card
+1655,1249,Desk,Furniture,463,5,2025-03-13,Miami,Debit Card
+1656,975,Office Chair,Furniture,326,3,2025-02-28,Los Angeles,Credit Card
+1657,1387,Lamp,Furniture,74,3,2025-01-09,Chicago,Debit Card
+1658,1291,Washing Machine,Home Appliances,844,1,2025-03-16,San Francisco,Debit Card
+1659,1450,Desk,Furniture,446,3,2025-03-14,Miami,Credit Card
+1660,1390,Microwave,Home Appliances,227,1,2025-01-20,San Francisco,PayPal
+1661,755,Microwave,Home Appliances,245,3,2025-03-05,San Francisco,Debit Card
+1662,547,Desk,Furniture,498,3,2025-01-31,New York,Credit Card
+1663,952,Jacket,Clothing,166,1,2025-03-24,Los Angeles,Credit Card
+1664,889,Backpack,Clothing,61,4,2025-03-16,Miami,Debit Card
+1665,1065,Monitor,Electronics,391,4,2025-03-04,San Francisco,Credit Card
+1666,1262,Lamp,Furniture,30,3,2025-03-27,Los Angeles,Debit Card
+1667,1323,Blender,Home Appliances,134,1,2025-01-04,Houston,PayPal
+1668,926,T-shirt,Clothing,51,3,2025-03-06,San Francisco,Debit Card
+1669,1481,Monitor,Electronics,406,2,2025-01-25,San Francisco,Credit Card
+1670,1032,Coffee Maker,Home Appliances,180,2,2025-03-06,Chicago,Credit Card
+1671,1275,Jeans,Clothing,58,1,2025-03-21,Chicago,Debit Card
+1672,1472,Microwave,Home Appliances,270,2,2025-03-07,Houston,PayPal
+1673,774,Jeans,Clothing,121,1,2025-03-15,New York,PayPal
+1674,1357,Desk,Furniture,467,3,2025-01-01,Los Angeles,Credit Card
+1675,769,Sofa,Furniture,1248,1,2025-01-02,Houston,Credit Card
+1676,1367,Coffee Maker,Home Appliances,219,2,2025-03-16,San Francisco,PayPal
+1677,704,Jeans,Clothing,51,5,2025-01-18,San Francisco,PayPal
+1678,1238,Blender,Home Appliances,118,1,2025-02-01,Chicago,PayPal
+1679,1345,T-shirt,Clothing,45,2,2025-02-01,New York,Credit Card
+1680,1228,Tablet,Electronics,507,1,2025-01-13,New York,Debit Card
+1681,1295,Office Chair,Furniture,309,1,2025-03-29,Miami,Credit Card
+1682,885,AirPods Pro,Electronics,293,1,2025-02-01,Houston,Credit Card
+1683,1179,MacBook Air,Electronics,1356,5,2025-02-28,Miami,Credit Card
+1684,1306,Backpack,Clothing,110,2,2025-03-13,New York,Debit Card
+1685,916,Tablet,Electronics,533,3,2025-01-07,San Francisco,Credit Card
+1686,1376,iPhone 14,Electronics,1043,4,2025-02-16,Chicago,PayPal
+1687,1079,Jeans,Clothing,112,5,2025-02-26,New York,Credit Card
+1688,556,Desk,Furniture,482,1,2025-03-14,Chicago,Credit Card
+1689,537,MacBook Air,Electronics,1379,1,2025-01-23,San Francisco,Debit Card
+1690,633,MacBook Air,Electronics,1381,4,2025-03-10,Los Angeles,PayPal
+1691,787,Gaming Mouse,Electronics,124,3,2025-03-04,San Francisco,Debit Card
+1692,559,Gaming Mouse,Electronics,169,3,2025-03-05,Chicago,Credit Card
+1693,1224,Jacket,Clothing,102,3,2025-03-10,Chicago,PayPal
+1694,1083,Sneakers,Clothing,139,2,2025-02-09,Houston,Credit Card
+1695,1451,Microwave,Home Appliances,261,4,2025-01-28,Chicago,Debit Card
+1696,1045,Office Chair,Furniture,364,2,2025-02-07,Miami,PayPal
+1697,526,Jeans,Clothing,65,4,2025-02-19,Chicago,Credit Card
+1698,1109,Backpack,Clothing,61,2,2025-03-11,San Francisco,Credit Card
+1699,687,Backpack,Clothing,74,5,2025-03-28,New York,Credit Card
+1700,524,Gaming Mouse,Electronics,70,2,2025-01-24,Miami,Credit Card
+1701,643,iPhone 14,Electronics,1062,1,2025-02-27,Los Angeles,Credit Card
+1702,1099,Desk,Furniture,484,3,2025-02-05,San Francisco,Debit Card
+1703,795,T-shirt,Clothing,30,4,2025-02-18,Chicago,PayPal
+1704,856,AirPods Pro,Electronics,243,2,2025-01-06,Los Angeles,Credit Card
+1705,807,Backpack,Clothing,98,4,2025-02-08,San Francisco,Credit Card
+1706,907,Blender,Home Appliances,109,5,2025-02-09,Chicago,PayPal
+1707,1493,Washing Machine,Home Appliances,895,5,2025-03-22,Miami,Debit Card
+1708,1100,iPhone 14,Electronics,1019,5,2025-02-07,Chicago,Credit Card
+1709,636,Blender,Home Appliances,165,3,2025-01-18,Miami,Credit Card
+1710,631,Desk,Furniture,491,3,2025-02-08,Chicago,PayPal
+1711,714,MacBook Air,Electronics,1355,3,2025-01-14,San Francisco,PayPal
+1712,770,Backpack,Clothing,159,5,2025-02-11,San Francisco,Credit Card
+1713,674,Backpack,Clothing,91,4,2025-01-24,New York,Credit Card
+1714,1196,Jeans,Clothing,106,4,2025-01-10,Miami,Credit Card
+1715,1276,Sofa,Furniture,1217,5,2025-03-28,Los Angeles,PayPal
+1716,861,AirPods Pro,Electronics,227,5,2025-03-11,San Francisco,Credit Card
+1717,1165,Monitor,Electronics,351,5,2025-03-11,San Francisco,PayPal
+1718,718,Sofa,Furniture,1239,4,2025-01-16,Los Angeles,PayPal
+1719,647,Gaming Mouse,Electronics,81,1,2025-02-23,San Francisco,Credit Card
+1720,1085,Lamp,Furniture,88,3,2025-01-05,Chicago,PayPal
+1721,694,Gaming Mouse,Electronics,166,3,2025-01-14,Miami,Credit Card
+1722,1033,MacBook Air,Electronics,1390,3,2025-02-03,Chicago,Credit Card
+1723,1473,Jeans,Clothing,56,1,2025-01-25,Miami,Credit Card
+1724,1321,Sneakers,Clothing,98,3,2025-01-13,Miami,Debit Card
+1725,795,Sneakers,Clothing,173,5,2025-01-17,Los Angeles,PayPal
+1726,835,Sneakers,Clothing,172,1,2025-02-10,Miami,Debit Card
+1727,777,Washing Machine,Home Appliances,849,4,2025-03-24,New York,Credit Card
+1728,970,Lamp,Furniture,142,2,2025-02-27,San Francisco,Debit Card
+1729,1443,AirPods Pro,Electronics,341,5,2025-01-14,Miami,Credit Card
+1730,647,Sneakers,Clothing,64,4,2025-02-02,New York,Credit Card
+1731,1069,Coffee Maker,Home Appliances,168,1,2025-01-26,San Francisco,PayPal
+1732,1260,Tablet,Electronics,567,2,2025-02-27,New York,Credit Card
+1733,643,Office Chair,Furniture,365,5,2025-01-21,Houston,Credit Card
+1734,1122,Headphones,Electronics,190,4,2025-03-26,San Francisco,PayPal
+1735,1272,Desk,Furniture,446,1,2025-01-04,San Francisco,Debit Card
+1736,968,Blender,Home Appliances,106,1,2025-02-11,Chicago,Credit Card
+1737,1334,Washing Machine,Home Appliances,829,1,2025-01-04,Miami,Debit Card
+1738,900,Tablet,Electronics,564,3,2025-01-01,Chicago,Debit Card
+1739,1283,Monitor,Electronics,404,5,2025-01-27,San Francisco,Credit Card
+1740,558,Jacket,Clothing,103,1,2025-01-03,Miami,Debit Card
+1741,775,Jeans,Clothing,36,3,2025-02-01,Houston,PayPal
+1742,938,Tablet,Electronics,589,5,2025-02-26,Miami,Debit Card
+1743,739,Washing Machine,Home Appliances,877,3,2025-02-07,Chicago,Credit Card
+1744,1489,Microwave,Home Appliances,222,5,2025-02-06,Houston,Credit Card
+1745,1237,iPhone 14,Electronics,1016,4,2025-03-18,New York,Credit Card
+1746,857,AirPods Pro,Electronics,338,3,2025-01-06,San Francisco,Debit Card
+1747,693,Gaming Mouse,Electronics,139,2,2025-03-27,New York,PayPal
+1748,1259,Desk,Furniture,441,4,2025-02-09,Los Angeles,Credit Card
+1749,977,Office Chair,Furniture,367,4,2025-02-01,San Francisco,Credit Card
+1750,1120,MacBook Air,Electronics,1369,1,2025-02-20,San Francisco,Debit Card
+1751,615,T-shirt,Clothing,13,1,2025-02-13,San Francisco,Credit Card
+1752,1410,Sofa,Furniture,1204,3,2025-03-27,New York,PayPal
+1753,1354,Gaming Mouse,Electronics,76,2,2025-03-22,Houston,PayPal
+1754,1047,Tablet,Electronics,539,2,2025-02-11,Chicago,Debit Card
+1755,1172,T-shirt,Clothing,57,4,2025-01-28,Miami,Debit Card
+1756,1407,Jacket,Clothing,172,1,2025-02-01,Chicago,Debit Card
+1757,1279,Sofa,Furniture,1201,1,2025-02-25,New York,PayPal
+1758,667,Coffee Maker,Home Appliances,134,1,2025-03-16,New York,Credit Card
+1759,1449,Washing Machine,Home Appliances,836,1,2025-03-24,Houston,Credit Card
+1760,536,Washing Machine,Home Appliances,889,5,2025-03-22,Miami,Debit Card
+1761,546,Microwave,Home Appliances,296,4,2025-02-07,Houston,Debit Card
+1762,1146,iPhone 14,Electronics,1066,3,2025-01-11,Chicago,PayPal
+1763,1101,T-shirt,Clothing,57,2,2025-02-25,New York,Credit Card
+1764,1480,Sofa,Furniture,1216,3,2025-03-10,Los Angeles,Debit Card
+1765,995,Sofa,Furniture,1187,2,2025-01-22,San Francisco,Debit Card
+1766,586,Desk,Furniture,505,5,2025-02-23,New York,Debit Card
+1767,1047,Blender,Home Appliances,149,4,2025-01-05,San Francisco,Debit Card
+1768,1194,Office Chair,Furniture,369,1,2025-03-21,New York,Debit Card
+1769,1240,MacBook Air,Electronics,1390,1,2025-03-26,Miami,PayPal
+1770,1035,Lamp,Furniture,48,3,2025-01-07,Houston,Credit Card
+1771,774,Blender,Home Appliances,119,4,2025-03-31,Miami,Credit Card
+1772,1228,Desk,Furniture,486,5,2025-03-22,Los Angeles,Credit Card
+1773,588,Coffee Maker,Home Appliances,179,3,2025-03-14,Los Angeles,PayPal
+1774,1259,Headphones,Electronics,189,4,2025-02-09,Miami,PayPal
+1775,1398,Sneakers,Clothing,102,3,2025-03-23,Houston,Debit Card
+1776,1343,AirPods Pro,Electronics,339,3,2025-01-06,Los Angeles,Debit Card
+1777,540,Desk,Furniture,489,4,2025-01-27,New York,Debit Card
+1778,1477,Washing Machine,Home Appliances,884,1,2025-01-28,New York,PayPal
+1779,1143,Desk,Furniture,423,1,2025-03-06,Los Angeles,Credit Card
+1780,1308,AirPods Pro,Electronics,285,4,2025-02-09,Los Angeles,Debit Card
+1781,659,Jacket,Clothing,208,5,2025-03-04,San Francisco,Credit Card
+1782,1095,Jacket,Clothing,125,3,2025-02-14,Los Angeles,Credit Card
+1783,991,Headphones,Electronics,273,2,2025-03-20,San Francisco,Credit Card
+1784,904,Backpack,Clothing,92,5,2025-02-02,Houston,Credit Card
+1785,667,AirPods Pro,Electronics,315,4,2025-02-05,Los Angeles,Debit Card
+1786,1025,Gaming Mouse,Electronics,170,4,2025-03-24,Los Angeles,Debit Card
+1787,934,Headphones,Electronics,275,4,2025-01-08,San Francisco,Credit Card
+1788,939,Backpack,Clothing,109,4,2025-02-28,San Francisco,Credit Card
+1789,1487,T-shirt,Clothing,109,1,2025-03-30,Chicago,PayPal
+1790,1237,Headphones,Electronics,284,3,2025-03-17,Houston,PayPal
+1791,1388,Gaming Mouse,Electronics,146,2,2025-03-23,Miami,Debit Card
+1792,1005,Washing Machine,Home Appliances,845,4,2025-02-14,Chicago,PayPal
+1793,1283,Blender,Home Appliances,139,2,2025-01-31,Chicago,Credit Card
+1794,1124,Coffee Maker,Home Appliances,240,4,2025-03-26,Houston,Debit Card
+1795,1051,Monitor,Electronics,406,2,2025-01-24,Houston,Credit Card
+1796,936,Desk,Furniture,443,2,2025-02-04,Los Angeles,PayPal
+1797,547,T-shirt,Clothing,85,5,2025-01-29,San Francisco,Credit Card
+1798,624,AirPods Pro,Electronics,269,5,2025-02-16,San Francisco,Credit Card
+1799,571,MacBook Air,Electronics,1306,2,2025-01-19,Chicago,Credit Card
+1800,988,iPhone 14,Electronics,1036,5,2025-02-10,New York,Credit Card
+1801,1080,iPhone 14,Electronics,987,4,2025-01-14,Chicago,Debit Card
+1802,575,Jeans,Clothing,123,4,2025-01-12,Chicago,Debit Card
+1803,962,Blender,Home Appliances,116,2,2025-02-08,Miami,PayPal
+1804,1468,Monitor,Electronics,411,1,2025-01-02,New York,Credit Card
+1805,697,Backpack,Clothing,54,3,2025-01-29,Chicago,PayPal
+1806,949,MacBook Air,Electronics,1352,1,2025-01-17,San Francisco,PayPal
+1807,1412,Tablet,Electronics,537,2,2025-02-21,Houston,Debit Card
+1808,633,MacBook Air,Electronics,1283,1,2025-03-24,Chicago,Credit Card
+1809,813,Headphones,Electronics,288,2,2025-03-23,San Francisco,Debit Card
+1810,1341,Monitor,Electronics,387,5,2025-01-18,Miami,Credit Card
+1811,574,AirPods Pro,Electronics,219,1,2025-01-08,Miami,Credit Card
+1812,895,Desk,Furniture,437,3,2025-03-21,Miami,Debit Card
+1813,548,iPhone 14,Electronics,1037,1,2025-03-27,San Francisco,Debit Card
+1814,1242,Monitor,Electronics,373,5,2025-02-24,Los Angeles,Credit Card
+1815,1385,Desk,Furniture,458,2,2025-02-14,Los Angeles,Debit Card
+1816,1025,Washing Machine,Home Appliances,791,4,2025-02-21,New York,Credit Card
+1817,1304,iPhone 14,Electronics,1093,1,2025-01-26,Houston,PayPal
+1818,1167,AirPods Pro,Electronics,240,3,2025-03-03,Los Angeles,Debit Card
+1819,1011,Sneakers,Clothing,106,1,2025-03-28,New York,Debit Card
+1820,1039,Gaming Mouse,Electronics,157,2,2025-03-25,Chicago,Debit Card
+1821,1125,T-shirt,Clothing,-1,2,2025-01-06,Los Angeles,Debit Card
+1822,1177,Tablet,Electronics,563,3,2025-01-31,Chicago,Credit Card
+1823,1041,Jeans,Clothing,77,5,2025-01-07,San Francisco,Credit Card
+1824,1099,Desk,Furniture,435,2,2025-02-09,Los Angeles,Debit Card
+1825,1478,Tablet,Electronics,480,1,2025-03-26,Houston,Debit Card
+1826,1139,Gaming Mouse,Electronics,164,2,2025-03-22,Houston,Credit Card
+1827,503,Microwave,Home Appliances,198,4,2025-03-27,Houston,Credit Card
+1828,842,Monitor,Electronics,359,2,2025-03-09,Houston,PayPal
+1829,1437,Blender,Home Appliances,110,5,2025-03-07,Los Angeles,PayPal
+1830,1156,Jacket,Clothing,112,2,2025-01-17,Los Angeles,PayPal
+1831,906,Backpack,Clothing,58,5,2025-03-31,Chicago,Debit Card
+1832,1260,iPhone 14,Electronics,1091,5,2025-02-27,Chicago,Debit Card
+1833,1261,Backpack,Clothing,107,4,2025-01-28,Chicago,PayPal
+1834,584,Coffee Maker,Home Appliances,205,5,2025-02-07,Los Angeles,PayPal
+1835,1284,Headphones,Electronics,247,4,2025-03-30,Los Angeles,Credit Card
+1836,1168,iPhone 14,Electronics,1053,2,2025-01-11,Miami,Debit Card
+1837,518,Sofa,Furniture,1269,1,2025-02-25,Houston,Debit Card
+1838,1281,Office Chair,Furniture,392,1,2025-01-25,New York,PayPal
+1839,1369,Microwave,Home Appliances,230,5,2025-03-20,Chicago,Credit Card
+1840,584,Microwave,Home Appliances,289,2,2025-01-07,San Francisco,Credit Card
+1841,1303,iPhone 14,Electronics,1007,4,2025-01-22,New York,Credit Card
+1842,853,Backpack,Clothing,104,1,2025-03-09,Houston,Credit Card
+1843,655,AirPods Pro,Electronics,293,3,2025-03-02,Los Angeles,Debit Card
+1844,510,Headphones,Electronics,184,2,2025-01-30,San Francisco,PayPal
+1845,579,Sneakers,Clothing,121,3,2025-03-14,New York,Debit Card
+1846,991,Microwave,Home Appliances,241,3,2025-01-06,San Francisco,PayPal
+1847,1203,Gaming Mouse,Electronics,168,4,2025-02-26,Houston,Debit Card
+1848,1411,Office Chair,Furniture,384,4,2025-01-31,Miami,Debit Card
+1849,719,Jeans,Clothing,84,4,2025-03-07,Los Angeles,Credit Card
+1850,1477,Coffee Maker,Home Appliances,224,4,2025-03-07,Miami,Debit Card
+1851,1197,Sneakers,Clothing,162,4,2025-01-12,New York,PayPal
+1852,1137,Gaming Mouse,Electronics,132,2,2025-01-13,New York,Debit Card
+1853,1096,Office Chair,Furniture,353,5,2025-02-06,New York,Debit Card
+1854,509,Coffee Maker,Home Appliances,131,1,2025-02-21,Los Angeles,Debit Card
+1855,1140,Coffee Maker,Home Appliances,220,5,2025-03-22,Houston,PayPal
+1856,523,Headphones,Electronics,238,1,2025-01-16,Los Angeles,Debit Card
+1857,1186,Coffee Maker,Home Appliances,186,3,2025-01-31,San Francisco,PayPal
+1858,891,Jacket,Clothing,194,2,2025-02-18,New York,Debit Card
+1859,1499,iPhone 14,Electronics,1024,3,2025-01-22,Los Angeles,Credit Card
+1860,601,iPhone 14,Electronics,1091,2,2025-03-29,Chicago,Credit Card
+1861,1103,Headphones,Electronics,253,5,2025-02-13,New York,Credit Card
+1862,1055,Jeans,Clothing,50,3,2025-02-26,New York,Credit Card
+1863,827,Jacket,Clothing,132,2,2025-03-24,San Francisco,PayPal
+1864,772,Desk,Furniture,520,2,2025-02-03,Los Angeles,Debit Card
+1865,1011,Tablet,Electronics,570,4,2025-03-02,Chicago,Credit Card
+1866,1451,Sneakers,Clothing,88,4,2025-02-13,Los Angeles,Debit Card
+1867,1186,Coffee Maker,Home Appliances,150,5,2025-03-23,San Francisco,Debit Card
+1868,1463,Blender,Home Appliances,153,1,2025-02-07,Los Angeles,PayPal
+1869,1353,Microwave,Home Appliances,177,1,2025-03-06,New York,Debit Card
+1870,634,Desk,Furniture,450,3,2025-02-21,Miami,PayPal
+1871,567,MacBook Air,Electronics,1319,3,2025-03-09,Miami,Credit Card
+1872,557,Tablet,Electronics,591,4,2025-03-28,New York,Credit Card
+1873,1109,Sofa,Furniture,1174,3,2025-03-29,Houston,Credit Card
+1874,1358,Office Chair,Furniture,370,1,2025-03-23,San Francisco,PayPal
+1875,620,MacBook Air,Electronics,1326,3,2025-03-07,Miami,PayPal
+1876,980,Washing Machine,Home Appliances,876,2,2025-02-20,Los Angeles,Credit Card
+1877,1314,MacBook Air,Electronics,1395,2,2025-02-20,New York,Credit Card
+1878,1379,Office Chair,Furniture,319,2,2025-03-28,San Francisco,Credit Card
+1879,854,Jeans,Clothing,44,3,2025-02-28,Houston,Credit Card
+1880,825,iPhone 14,Electronics,1013,2,2025-01-22,New York,PayPal
+1881,1079,Office Chair,Furniture,383,3,2025-03-20,Chicago,Debit Card
+1882,992,Gaming Mouse,Electronics,175,5,2025-01-19,San Francisco,PayPal
+1883,985,iPhone 14,Electronics,999,5,2025-02-11,New York,PayPal
+1884,1008,Desk,Furniture,548,4,2025-03-30,New York,PayPal
+1885,924,Jacket,Clothing,184,5,2025-01-18,Los Angeles,Credit Card
+1886,731,Lamp,Furniture,34,1,2025-01-26,New York,PayPal
+1887,545,Backpack,Clothing,109,1,2025-03-10,San Francisco,PayPal
+1888,812,Microwave,Home Appliances,194,2,2025-03-06,Houston,PayPal
+1889,806,Lamp,Furniture,88,2,2025-03-02,Houston,PayPal
+1890,1273,Headphones,Electronics,237,1,2025-02-15,Chicago,Credit Card
+1891,610,Gaming Mouse,Electronics,59,5,2025-03-28,Houston,Credit Card
+1892,1246,Sneakers,Clothing,94,2,2025-03-24,San Francisco,PayPal
+1893,715,Headphones,Electronics,194,3,2025-01-16,Los Angeles,PayPal
+1894,1411,Washing Machine,Home Appliances,863,1,2025-01-05,Miami,Debit Card
+1895,809,MacBook Air,Electronics,1308,5,2025-03-02,San Francisco,Debit Card
+1896,1162,Microwave,Home Appliances,249,2,2025-01-10,Houston,Debit Card
+1897,1430,iPhone 14,Electronics,1009,2,2025-01-17,Los Angeles,Debit Card
+1898,506,Backpack,Clothing,81,3,2025-03-23,Chicago,Debit Card
+1899,892,Backpack,Clothing,127,2,2025-03-13,Miami,Credit Card
+1900,936,Monitor,Electronics,405,5,2025-01-02,New York,Credit Card
+1901,1090,Sneakers,Clothing,106,5,2025-03-06,Los Angeles,PayPal
+1902,899,Tablet,Electronics,495,5,2025-01-18,Miami,Credit Card
+1903,1190,Backpack,Clothing,67,4,2025-01-02,Los Angeles,PayPal
+1904,1231,Headphones,Electronics,288,4,2025-01-27,New York,Credit Card
+1905,1297,Jacket,Clothing,135,1,2025-01-16,Los Angeles,PayPal
+1906,604,Monitor,Electronics,407,2,2025-02-18,San Francisco,Debit Card
+1907,1181,Tablet,Electronics,528,3,2025-02-28,New York,Debit Card
+1908,1226,MacBook Air,Electronics,1323,3,2025-02-09,Los Angeles,PayPal
+1909,656,iPhone 14,Electronics,1074,1,2025-02-28,San Francisco,PayPal
+1910,929,iPhone 14,Electronics,1041,1,2025-03-05,San Francisco,Credit Card
+1911,1025,Microwave,Home Appliances,235,4,2025-02-14,Houston,Credit Card
+1912,564,Blender,Home Appliances,167,3,2025-03-29,Chicago,PayPal
+1913,658,Tablet,Electronics,494,3,2025-01-23,Houston,Debit Card
+1914,1288,Lamp,Furniture,157,5,2025-02-20,San Francisco,PayPal
+1915,1183,Washing Machine,Home Appliances,852,4,2025-03-25,Chicago,Credit Card
+1916,1328,iPhone 14,Electronics,1026,4,2025-01-04,New York,Credit Card
+1917,640,Washing Machine,Home Appliances,801,5,2025-03-27,New York,Debit Card
+1918,1252,Jacket,Clothing,120,2,2025-03-11,Chicago,Credit Card
+1919,1076,Sneakers,Clothing,143,2,2025-02-12,Chicago,PayPal
+1920,605,Gaming Mouse,Electronics,50,3,2025-02-08,San Francisco,PayPal
+1921,1470,Coffee Maker,Home Appliances,157,4,2025-02-12,Chicago,PayPal
+1922,1147,Tablet,Electronics,588,1,2025-03-25,Chicago,Debit Card
+1923,1316,Jeans,Clothing,154,3,2025-02-12,Miami,Credit Card
+1924,871,Monitor,Electronics,371,3,2025-02-15,Miami,PayPal
+1925,673,Headphones,Electronics,201,4,2025-03-10,Miami,Credit Card
+1926,1393,Desk,Furniture,427,2,2025-03-12,New York,PayPal
+1927,825,Coffee Maker,Home Appliances,204,5,2025-03-28,Houston,Debit Card
+1928,912,iPhone 14,Electronics,997,3,2025-02-08,Houston,Debit Card
+1929,1243,Tablet,Electronics,507,1,2025-03-15,Houston,Debit Card
+1930,1349,Washing Machine,Home Appliances,790,4,2025-01-10,New York,Debit Card
+1931,991,Coffee Maker,Home Appliances,143,5,2025-01-25,Los Angeles,Debit Card
+1932,711,Jeans,Clothing,133,2,2025-02-21,New York,PayPal
+1933,736,T-shirt,Clothing,70,2,2025-03-28,Houston,Debit Card
+1934,1091,Tablet,Electronics,475,1,2025-02-19,Los Angeles,Debit Card
+1935,1261,Office Chair,Furniture,339,4,2025-03-03,Los Angeles,PayPal
+1936,639,Office Chair,Furniture,341,4,2025-03-05,Miami,PayPal
+1937,564,Lamp,Furniture,39,5,2025-01-13,Chicago,Debit Card
+1938,1418,Office Chair,Furniture,289,5,2025-03-09,Los Angeles,Credit Card
+1939,1290,Sofa,Furniture,1189,3,2025-01-22,Chicago,Credit Card
+1940,709,Backpack,Clothing,80,3,2025-01-12,Miami,Credit Card
+1941,1409,Blender,Home Appliances,156,2,2025-03-30,New York,Debit Card
+1942,1150,Backpack,Clothing,59,5,2025-01-27,San Francisco,PayPal
+1943,826,Gaming Mouse,Electronics,69,1,2025-02-01,Miami,PayPal
+1944,739,T-shirt,Clothing,25,1,2025-01-22,Houston,Credit Card
+1945,1448,Lamp,Furniture,126,5,2025-03-08,San Francisco,Credit Card
+1946,784,Coffee Maker,Home Appliances,121,4,2025-03-15,San Francisco,Credit Card
+1947,610,Coffee Maker,Home Appliances,178,4,2025-01-06,Los Angeles,PayPal
+1948,712,AirPods Pro,Electronics,336,5,2025-02-08,Houston,Debit Card
+1949,1321,Desk,Furniture,542,4,2025-02-26,Los Angeles,PayPal
+1950,585,Jacket,Clothing,91,2,2025-01-16,Houston,Debit Card
+1951,641,Jacket,Clothing,218,3,2025-02-26,Chicago,Debit Card
+1952,530,Backpack,Clothing,102,1,2025-02-22,Houston,PayPal
+1953,1191,Sneakers,Clothing,160,5,2025-02-14,Los Angeles,Debit Card
+1954,1371,Sofa,Furniture,1235,1,2025-01-08,New York,PayPal
+1955,1108,Monitor,Electronics,419,3,2025-01-16,New York,Debit Card
+1956,1343,MacBook Air,Electronics,1372,3,2025-03-23,Miami,Credit Card
+1957,1323,Lamp,Furniture,112,3,2025-03-17,Miami,Credit Card
+1958,870,Microwave,Home Appliances,204,2,2025-02-20,Houston,Credit Card
+1959,1336,Gaming Mouse,Electronics,123,2,2025-02-13,Chicago,Debit Card
+1960,933,Coffee Maker,Home Appliances,220,3,2025-03-02,Houston,PayPal
+1961,1441,Sneakers,Clothing,98,2,2025-03-27,New York,PayPal
+1962,1366,Jeans,Clothing,153,5,2025-01-08,New York,Debit Card
+1963,626,Backpack,Clothing,56,4,2025-03-06,New York,Debit Card
+1964,874,MacBook Air,Electronics,1298,4,2025-03-02,San Francisco,PayPal
+1965,720,Microwave,Home Appliances,222,1,2025-03-11,Los Angeles,Credit Card
+1966,516,Desk,Furniture,488,3,2025-01-19,Los Angeles,Credit Card
+1967,1171,AirPods Pro,Electronics,342,3,2025-01-24,San Francisco,Debit Card
+1968,1308,iPhone 14,Electronics,980,2,2025-02-21,Miami,Credit Card
+1969,687,Microwave,Home Appliances,178,5,2025-03-11,San Francisco,Debit Card
+1970,713,Headphones,Electronics,285,4,2025-01-24,San Francisco,Debit Card
+1971,1402,Desk,Furniture,470,3,2025-01-02,Los Angeles,PayPal
+1972,1016,Washing Machine,Home Appliances,878,1,2025-01-31,Chicago,Credit Card
+1973,902,Gaming Mouse,Electronics,145,5,2025-02-16,Miami,Debit Card
+1974,1448,Blender,Home Appliances,104,4,2025-01-14,San Francisco,PayPal
+1975,612,Sofa,Furniture,1239,2,2025-03-16,Houston,PayPal
+1976,717,Gaming Mouse,Electronics,155,4,2025-01-18,Los Angeles,Credit Card
+1977,1193,Office Chair,Furniture,374,2,2025-01-02,New York,Credit Card
+1978,1388,Washing Machine,Home Appliances,819,1,2025-01-06,New York,Debit Card
+1979,931,T-shirt,Clothing,31,1,2025-01-24,New York,Credit Card
+1980,1057,iPhone 14,Electronics,997,4,2025-01-25,Houston,Credit Card
+1981,1488,Jeans,Clothing,140,1,2025-02-13,Los Angeles,PayPal
+1982,1240,MacBook Air,Electronics,1366,4,2025-03-31,New York,PayPal
+1983,1086,Desk,Furniture,501,3,2025-03-10,Los Angeles,Credit Card
+1984,649,Microwave,Home Appliances,248,5,2025-01-14,Los Angeles,PayPal
+1985,1313,Headphones,Electronics,273,4,2025-02-01,Chicago,Credit Card
+1986,1264,Tablet,Electronics,497,5,2025-02-20,Los Angeles,PayPal
+1987,1253,Monitor,Electronics,370,1,2025-03-05,Los Angeles,PayPal
+1988,1153,Desk,Furniture,535,1,2025-03-05,New York,Credit Card
+1989,719,Office Chair,Furniture,334,1,2025-03-25,Los Angeles,Debit Card
+1990,1012,Jeans,Clothing,68,2,2025-03-08,Miami,PayPal
+1991,1094,Coffee Maker,Home Appliances,138,4,2025-02-14,Chicago,PayPal
+1992,1159,T-shirt,Clothing,123,5,2025-02-01,Los Angeles,Debit Card
+1993,748,Blender,Home Appliances,162,4,2025-02-16,New York,Credit Card
+1994,992,Tablet,Electronics,509,4,2025-03-25,Miami,Debit Card
+1995,750,Jacket,Clothing,124,3,2025-01-13,Houston,Debit Card
+1996,943,Office Chair,Furniture,338,3,2025-01-28,Houston,Credit Card
+1997,849,Sneakers,Clothing,142,3,2025-01-06,Chicago,Credit Card
+1998,1454,Gaming Mouse,Electronics,83,2,2025-01-18,Los Angeles,PayPal
+1999,1436,Coffee Maker,Home Appliances,181,3,2025-02-12,San Francisco,PayPal
+2000,1372,Sneakers,Clothing,177,2,2025-01-21,Chicago,PayPal
