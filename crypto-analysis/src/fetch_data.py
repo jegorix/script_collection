@@ -12,6 +12,8 @@ DATA_DIR.mkdir(parents=True, exist_ok=True)
 class FetchError(Exception):
     pass
 
+
+
 def fetch_coin_market_chart(
     coin_id: str,
     days: int = 90,
@@ -42,12 +44,16 @@ def fetch_coin_market_chart(
         
     return data
         
+        
+        
 def prices_json_to_df(data: Dict[str, Any]) -> pd.DataFrame:
     prices = data.get("prices", [])
     df = pd.DataFrame(prices, columns=["timestamp", "price"])
     df["date"] = pd.to_datetime(df["timestamp"], unit="ms")
     df = df.drop(columns=["timestamp"]).sort_values("date").reset_index(drop=True)
     return df
+
+
 
 def fetch_and_save_coin(
     coin_id: str, 
@@ -61,6 +67,9 @@ def fetch_and_save_coin(
     raw = fetch_coin_market_chart(coin_id, days=days, vs_currency=vs_currency, interval=interval)
     df_data = prices_json_to_df(raw)
     if save_csv:
-        csv_path = DATA_DIR / f"{coin_id}"
+        csv_path = DATA_DIR / f"{coin_id}.csv"
         df_data.to_csv(csv_path, index=False)
+        
+    time.sleep(pause_seconds)
     return df_data
+
