@@ -20,7 +20,7 @@ def add_sma(df: pd.DataFrame, windows: list[int] = [7, 30]) -> pd.DataFrame:
         df[f"SMA_{w}"] = df["price"].rolling(window=w).mean()
     return df
     
-def volatility(df: pd.DataFrame) -> pd.DataFrame:
+def volatility(df: pd.DataFrame) -> float:
     """
     Возвращает стандартное отклонение доходностей (волатильность).
     """
@@ -33,3 +33,23 @@ def correlation(df1: pd.DataFrame, df2: pd.DataFrame) -> float:
     merged = pd.merge(df1['data', 'return'], df2['data', 'return'], on='date', suffixes=("_1", "_2"))
     return float(merged['return_1'].corr(merged['return_2']))
 
+
+def cumulative_returns(df: pd.DataFrame) -> pd.DataFrame:
+    """Кумулятивная доходность: (1 + r).cumprod() - 1"""
+    return (1 + df['return']).cumprod() - 1
+
+def annualized_volatility(df: pd.DataFrame, perionds_per_year: int = 252) -> pd.Series:
+    """
+    Годовая волатильность
+    """
+    return df['return'].std(skipna=True) * (perionds_per_year ** 0.5 )
+
+def sharp_ratio(df: pd.DataFrame, risk_free_rate: float = 0.0) -> pd.Series:
+    """Коэффициент Шарпа"""
+    excess_returns = df['return'].mean(skipna=True) - risk_free_rate
+    return excess_returns / df['return'].std(skipna=True)
+
+def max_drawdown(cumulative: pd.DataFrame) -> pd.Series:
+    """Максимальная просадка"""
+    drawdown = cumulative / cumulative.cummax() - 1
+    return drawdown.min() 
