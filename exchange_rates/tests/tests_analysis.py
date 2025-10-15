@@ -8,33 +8,53 @@ sys.path.append(str(ROOT))
 from src.analysis import *
 from src.fetch_fx import fetch_and_convert_data
 
-data = fetch_and_convert_data()
+# Загружаем данные
+data = fetch_and_convert_data(base='USD', symbols=['BYN', 'EUR'])
 
-print("""\nAdd daily returns to the DataFrame.""")
+# 1. Добавляем доходности
+print("\nAdd daily returns to the DataFrame.")
 df_data = add_returns(data)
-print(df_data)
+print(df_data.head())
 
-print("""\nCalculate statistics for a series of returns.""")
-pprint(returns_stats(df_data), indent=4, sort_dicts=False)
+# Доступные валюты
+print("\nAvailable columns:", list(df_data.columns))
 
-print("""\nAdd Simple Moving Averages (SMA) to the DataFrame.""")
-pprint(add_sma(df_data))
+# 2. Статистика доходностей по EUR и BYN
+print("\nCalculate statistics for USDEUR and USDBYN returns.")
+eur_stats = returns_stats(df_data, "USDEUR")
+byn_stats = returns_stats(df_data, "USDBYN")
+pprint({"USDEUR": eur_stats, "USDBYN": byn_stats}, indent=4, sort_dicts=False)
 
-print("""\nReturn STD between Returns""")
-pprint(float(volatility(df_data)))
+# 3. Добавляем SMA
+print("\nAdd Simple Moving Averages (SMA) to the DataFrame.")
+df_sma = add_sma(df_data)
+print(df_sma.head())
 
-# print("""\nCalculate Return correlation between 2 currencies""")
-# print(float(correlation(df_data, df_data)))
+# 4. Волатильность
+print("\nReturn STD between Returns")
+print(f"USDEUR volatility: {volatility(df_data, 'USDEUR')}")
+print(f"USDBYN volatility: {volatility(df_data, 'USDBYN')}")
 
-print("""\nКумулятивная доходность: (1 + r).cumprod() - 1""")
-pprint(cumulative_returns(df_data))
+# 5. Корреляция доходностей
+print("\nCalculate Return correlation between USDEUR and USDBYN")
+print(correlation(df_data, "USDEUR", "USDBYN"))
 
-print("""\nГодовая волатильность""")
-pprint(float(annualized_volatility(df_data)))
+# 6. Кумулятивная доходность
+print("\nCumulative returns")
+print(cumulative_returns(df_data, "USDEUR").head())
+print(cumulative_returns(df_data, "USDBYN").head())
 
+# 7. Годовая волатильность
+print("\nAnnualized volatility")
+print(f"USDEUR: {annualized_volatility(df_data, 'USDEUR')}")
+print(f"USDBYN: {annualized_volatility(df_data, 'USDBYN')}")
 
-print("""\nКоэффициент Шарпа""")
-pprint(float(sharp_ratio(df_data)))
+# 8. Sharpe Ratio
+print("\nSharpe ratio")
+print(f"USDEUR: {sharpe_ratio(df_data, 'USDEUR')}")
+print(f"USDBYN: {sharpe_ratio(df_data, 'USDBYN')}")
 
-print("""\nМаксимальная просадка""")
-pprint(max_drawdown(df_data))
+# 9. Максимальная просадка
+print("\nMax drawdown")
+print(f"USDEUR: {max_drawdown(df_data, 'USDEUR')}")
+print(f"USDBYN: {max_drawdown(df_data, 'USDBYN')}")

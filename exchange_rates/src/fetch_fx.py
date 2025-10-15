@@ -69,16 +69,20 @@ def fx_json_to_df(data: Dict[str, Any]) -> pd.DataFrame:
     # df = df.reset_index().rename(columns={'index': 'date'})
     return df
 
-def fetch_and_convert_data() -> pd.DataFrame:
+def fetch_and_convert_data(
+    base: str = 'USD',
+    start_date: str = '2025-01-01',
+    end_date: str = '2025-01-30',
+    symbols: list[str] = ['EUR']
+    ) -> pd.DataFrame:
     """
     Point of entering
     """
     json_data: Dict[str, Any] = fetch_fx_data(
-        base='USD',
-        start_date='2025-01-01',
-        end_date='2025-01-30',
-        # symbols=['BYN', 'EUR', 'USD']
-        symbols=['BYN']
+        base=base,
+        start_date=start_date,
+        end_date=end_date,
+        symbols=symbols
     )
     # print(json_data)
     
