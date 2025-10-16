@@ -5,6 +5,8 @@ from models import Transaction, Category, TransactionType
 from datetime import datetime
 import pandas as pd
 
+transactions = []
+
 DATA_FILE = Path("transactions.csv")
 
 def save_transactions(transactions: List[Transaction]):
@@ -49,6 +51,23 @@ def export_to_excel(transactions: List[Transaction], filename: str = "transcatio
         "Comment": t.comment
     } for t in transactions ])
     df.to_excel(filename, index=False)
+    
+    
+        
+        
+if __name__ == '__main__':
+    transactions = [
+        Transaction(-15.5, Category.FOOD, TransactionType.EXPENSE, datetime(2024, 1, 3), "Обед в кафе"),
+        Transaction(-50.0, Category.TRANSPORT, TransactionType.EXPENSE, datetime(2024, 1, 5), "Проездной на месяц"),
+        Transaction(-300.0, Category.RENT, TransactionType.EXPENSE, datetime(2024, 1, 6), "Аренда квартиры"),
+        Transaction(1000.0, Category.SALARY, TransactionType.INCOME, datetime(2024, 1, 10), "Зарплата"),
+        Transaction(-25.0, Category.FOOD, TransactionType.EXPENSE, datetime(2024, 1, 12), "Продукты"),
+        Transaction(-10.0, Category.OTHER, TransactionType.EXPENSE, datetime(2024, 1, 15), "Подписка Netflix"),
+        Transaction(-35.0, Category.TRANSPORT, TransactionType.EXPENSE, datetime(2024, 1, 18), "Такси"),
+        Transaction(-120.0, Category.FOOD, TransactionType.EXPENSE, datetime(2024, 1, 20), "Ужин в ресторане"),
+        Transaction(200.0, Category.OTHER, TransactionType.INCOME, datetime(2024, 1, 22), "Фриланс"),
+        Transaction(-80.0, Category.RENT, TransactionType.EXPENSE, datetime(2024, 1, 25), "Коммунальные услуги"),
+    ]
         
 
 
