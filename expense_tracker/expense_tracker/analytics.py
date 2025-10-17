@@ -20,14 +20,26 @@ def analyze_by_category(transactions: List[Transaction]) -> pd.DataFrame:
     return result
 
 def show_plots(df: pd.DataFrame):
-    """График курсов валют"""
+    """График доходов и расходов"""
     df.plot(figsize=(10, 5))
-    plt.title("Exchange Rates Over Time")
+    plt.title("Incomes and Expenses")
     plt.xlabel("Date")
-    plt.ylabel("Price")
+    plt.ylabel("Amount")
     plt.grid(alpha=0.5)
     plt.legend()
     plt.show()
+    
+def show_bars(df: pd.DataFrame):
+    plt.figure(figsize=(10, 5))
+    plt.bar(df["Category"], df["Amount"], color="skyblue", edgecolor="black")
+    plt.title("Incomes and Expenses by Category")
+    plt.xlabel("Category")
+    plt.ylabel("Total Amount")
+    plt.grid(axis="y", alpha=0.5)
+    plt.show()
+    
+    
+
 
 
 
@@ -46,3 +58,4 @@ if __name__ == '__main__':
     ]
     df = analyze_by_category(transactions)
     show_plots(df)
+    show_bars(df)
