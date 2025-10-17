@@ -25,7 +25,7 @@ class Transaction:
     amount: float = 0.0
     category: Category = Category.OTHER
     type: TransactionType = TransactionType.EXPENSE
-    date: datetime = Field(default_factory=datetime.utcnow)
+    date: datetime = Field(default_factory=datetime.now)
     comment: Optional[str] = ""
 
     def to_dict(self) -> Dict[str, Any]:
@@ -42,13 +42,16 @@ class Transaction:
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> "Transaction":
         # Create a new Transaction object from a dictionary
-        category = data.get("category", Category.OTHER)
-        type = data.get("type", TransactionType.EXPENSE)
-        date = datetime.fromisoformat(
-            data["date"]
-            if isinstance(data.get("date"), str)
-            else data.get("date", datetime.utcnow())
-        )
+        
+        category_str = data.get("category", "Other")
+        category = Category(category_str)
+        
+        type_str = data.get("type", "Expense")
+        type = TransactionType(type_str)
+        
+        date_str = data.get("date", datetime.now().isoformat())
+        date = datetime.fromisoformat(date_str)
+        
         return cls(
             id=data.get("id", str(uuid4())),
             amount=data.get("amount", 0.0),
@@ -75,8 +78,15 @@ class TransactionSchema(BaseModel):
             raise ValueError("Amount must be finite")
         return v
 
-    def to_trasaction(self) -> Transaction:
-        return Transaction.from_dict(self.dict())
+    def to_transaction(self) -> Transaction:
+        return Transaction(
+            id=self.id or str(uuid4()),
+            amount=self.amount,
+            category=self.category,
+            type=self.type,
+            date=self.date, 
+            comment=self.comment or "",
+        )
 
 
 if __name__ == "__main__":
