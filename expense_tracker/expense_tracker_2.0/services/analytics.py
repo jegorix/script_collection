@@ -1,8 +1,6 @@
 import pandas as pd
-import numpy as np
 from typing import List
-from ..models.transaction import Transaction
-from storage import transaction_to_dataframe
+from models.transaction import Transaction
 
 class Analytics:
     """
@@ -24,8 +22,7 @@ class Analytics:
         Group Expences by category
         """
         expences = df[df['type'] == 'Expense']
-        expences.groupby('category')['amount'].sum(numeric_only=True).sort_values(ascending=False)
-        return expences
+        return expences.groupby('category')['amount'].sum(numeric_only=True).sort_values(ascending=False)
     
     
     @staticmethod
@@ -34,8 +31,8 @@ class Analytics:
         Group Incomes by category
         """
         incomes = df[df['type'] == 'Income']
-        incomes.groupby('category')['amount'].sum(numeric_only=True).sort_values(ascending=False)
-        return incomes
+        return incomes.groupby('category')['amount'].sum(numeric_only=True).sort_values(ascending=False)
+
     
     
     @staticmethod
@@ -67,7 +64,7 @@ class Analytics:
         """Expences and Incomes by the monthes"""
         df['month'] = df['date'].dt.to_period('M')
         summary = df.groupby(['month', 'type'])['amount'].sum().unstack(fill_value=0)
-        summary['balance'] = summary.get('Income', 0) - summary.get('Expence', 0)
+        summary['balance'] = summary.get('Income', 0) - abs(summary.get('Expense', 0))
         return summary
     
     @staticmethod

@@ -10,10 +10,12 @@ DATA_FILE = Path("data/data.json")
 def load_transaction_json(file_path: Path = DATA_FILE) -> List[Transaction]:
     if not file_path.exists():
         return []
+    
     with file_path.open("r", encoding="utf-8") as file:
         data_list = json.load(file)
 
     transactions: List[Transaction] = []
+    
     for item in data_list:
         try:
             schema = TransactionSchema(**item)

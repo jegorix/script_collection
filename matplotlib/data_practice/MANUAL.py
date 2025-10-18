@@ -116,6 +116,22 @@ ax[2, 0].set_ylabel('Цена')
 ax[2, 0].grid(True, linestyle='--', alpha=0.6)
 
 
+"""STACKED BAR"""
+    # @staticmethod
+    # def stacked_monthly_income_expense(df: pd.DataFrame):
+    #     """Stacked bar: доходы и расходы по месяцам"""
+    #     summary = Analytics.monthly_summary(df)
+    #     summary[['Income', 'Expense']].plot(
+    #         kind="bar", stacked=True, figsize=(10, 6), color=["green", "red"]
+    #     )
+    #     plt.title("Income vs Expense by Month")
+    #     plt.xlabel("Month")
+    #     plt.ylabel("Amount")
+    #     plt.xticks(rotation=45)
+    #     plt.legend()
+    #     plt.show()
+
+
 
 # Pie chart: категории
 ax[2, 1].pie(category_revenue.values,
