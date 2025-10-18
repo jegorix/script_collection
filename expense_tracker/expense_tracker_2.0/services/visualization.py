@@ -107,6 +107,48 @@ class Visualization:
         plt.show()
         
     
+    @staticmethod
+    def scatter_expense_vs_income(df: pd.DataFrame):
+        """Scatter plot: Expenses vs Incomes by date"""
+        summary = Analytics.monthly_summary(df).reset_index()
+        plt.figure(figsize=(8, 6))
+        plt.scatter(summary['Income'], -summary['Expense'], c='red', alpha=0.6, label='Months')
+        plt.xlabel("Income")
+        plt.ylabel('Expense')
+        plt.title("Income vs Expenses (Scatter)")
+        plt.legend()
+        plt.show()
+        
+        
+    @staticmethod
+    def heatmap_expenses_by_day_hour(df: pd.DataFrame):
+        """Heatmap plot Expenses by day of week and hours"""
+        exp = df[df['type'] == 'Expense'].copy()
+        if exp.empty:
+            print("No Expenses")
+            return
+        
+        exp['date'] = pd.to_datetime(exp['date'])
+        exp['weekday'] = exp['date'].dt.day_name()
+        # если только дата, ставим середину дня
+        exp['hour'] = exp['date'].dt.hour if 'hour' in exp['date'].dt.__dir__() else 12
+        
+        pivot = exp.pivot_table(
+            values='amount',
+            index='weekday',
+            columns='hour',
+            aggfunc='sum',
+            fill_value=0
+        )
+        
+        plt.figure(figsize=(12, 6))
+        sns.heatmap(pivot, cmap='Reds', linewidths=0.5, annot=True, fmt='.0f')
+        plt.title("Heatmap of Expenses by Day and Hour")
+        plt.xlabel("Day of Week")
+        plt.ylabel("Hour of Day")
+        plt.show()
+        
+    
 
 if __name__ == '__main__':
     pass

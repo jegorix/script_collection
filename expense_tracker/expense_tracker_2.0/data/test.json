@@ -27,5 +27,1605 @@
   {"id": "24", "amount": -120, "category": "Entertainment", "type": "Expense", "date": "2024-03-14", "comment": "Concert"},
   {"id": "25", "amount": -160, "category": "Food", "type": "Expense", "date": "2024-03-18", "comment": "Cafe"},
   {"id": "26", "amount": -80, "category": "Transport", "type": "Expense", "date": "2024-03-19", "comment": "Taxi"},
-  {"id": "27", "amount": 100, "category": "Other", "type": "Income", "date": "2024-03-22", "comment": "Gift"}
+  {"id": "27", "amount": 100, "category": "Other", "type": "Income", "date": "2024-03-22", "comment": "Gift"},
+  {
+    "id": "28",
+    "amount": -446,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2024-01-02",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "29",
+    "amount": 365,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-01-03",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "30",
+    "amount": 345,
+    "category": "Freelance",
+    "type": "Income",
+    "date": "2024-01-04",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "31",
+    "amount": -203,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-01-05",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "32",
+    "amount": -211,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2024-01-06",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "33",
+    "amount": -284,
+    "category": "Freelance",
+    "type": "Expense",
+    "date": "2024-01-08",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "34",
+    "amount": 445,
+    "category": "Freelance",
+    "type": "Income",
+    "date": "2024-01-09",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "35",
+    "amount": -155,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-01-12",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "36",
+    "amount": 437,
+    "category": "Entertainment",
+    "type": "Income",
+    "date": "2024-01-13",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "37",
+    "amount": 420,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-01-15",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "38",
+    "amount": 338,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-01-17",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "39",
+    "amount": -136,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-01-18",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "40",
+    "amount": 358,
+    "category": "Rent",
+    "type": "Income",
+    "date": "2024-01-20",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "41",
+    "amount": -203,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2024-01-23",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "42",
+    "amount": -420,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-01-25",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "43",
+    "amount": -197,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-01-28",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "44",
+    "amount": -375,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2024-01-31",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "45",
+    "amount": 204,
+    "category": "Rent",
+    "type": "Income",
+    "date": "2024-02-03",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "46",
+    "amount": 259,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2024-02-04",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "47",
+    "amount": -294,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-02-05",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "48",
+    "amount": 202,
+    "category": "Freelance",
+    "type": "Income",
+    "date": "2024-02-06",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "49",
+    "amount": -100,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2024-02-06",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "50",
+    "amount": 70,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-02-11",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "51",
+    "amount": -105,
+    "category": "Freelance",
+    "type": "Expense",
+    "date": "2024-02-13",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "52",
+    "amount": 401,
+    "category": "Freelance",
+    "type": "Income",
+    "date": "2024-02-14",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "53",
+    "amount": -219,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-02-15",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "54",
+    "amount": 103,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-02-17",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "55",
+    "amount": 220,
+    "category": "Freelance",
+    "type": "Income",
+    "date": "2024-02-20",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "56",
+    "amount": -292,
+    "category": "Freelance",
+    "type": "Expense",
+    "date": "2024-02-21",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "57",
+    "amount": -259,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2024-02-23",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "58",
+    "amount": 408,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2024-02-26",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "59",
+    "amount": 115,
+    "category": "Freelance",
+    "type": "Income",
+    "date": "2024-02-28",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "60",
+    "amount": -361,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-03-01",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "61",
+    "amount": 114,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2024-03-03",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "62",
+    "amount": -163,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-03-04",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "63",
+    "amount": 412,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-03-06",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "64",
+    "amount": 415,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-03-08",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "65",
+    "amount": -226,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-03-10",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "66",
+    "amount": -78,
+    "category": "Freelance",
+    "type": "Expense",
+    "date": "2024-03-11",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "67",
+    "amount": -78,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-03-13",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "68",
+    "amount": 365,
+    "category": "Rent",
+    "type": "Income",
+    "date": "2024-03-14",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "69",
+    "amount": 252,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-03-15",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "70",
+    "amount": 484,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-03-16",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "71",
+    "amount": 481,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-03-19",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "72",
+    "amount": 390,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-03-20",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "73",
+    "amount": 334,
+    "category": "Freelance",
+    "type": "Income",
+    "date": "2024-03-22",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "74",
+    "amount": -347,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-03-23",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "75",
+    "amount": 142,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2024-03-24",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "76",
+    "amount": -77,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2024-03-27",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "77",
+    "amount": 231,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-03-30",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "78",
+    "amount": 112,
+    "category": "Entertainment",
+    "type": "Income",
+    "date": "2024-04-01",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "79",
+    "amount": 435,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-04-02",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "80",
+    "amount": 295,
+    "category": "Freelance",
+    "type": "Income",
+    "date": "2024-04-05",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "81",
+    "amount": 393,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-04-06",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "82",
+    "amount": 73,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-04-08",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "83",
+    "amount": 331,
+    "category": "Entertainment",
+    "type": "Income",
+    "date": "2024-04-10",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "84",
+    "amount": -460,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-04-12",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "85",
+    "amount": -242,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-04-14",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "86",
+    "amount": 498,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-04-16",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "87",
+    "amount": 181,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-04-19",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "88",
+    "amount": 480,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-04-22",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "89",
+    "amount": 69,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2024-04-24",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "90",
+    "amount": -342,
+    "category": "Rent",
+    "type": "Expense",
+    "date": "2024-04-25",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "91",
+    "amount": -98,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-04-27",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "92",
+    "amount": 226,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-04-28",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "93",
+    "amount": 286,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-05-01",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "94",
+    "amount": -274,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-05-02",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "95",
+    "amount": -119,
+    "category": "Freelance",
+    "type": "Expense",
+    "date": "2024-05-05",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "96",
+    "amount": -451,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-05-07",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "97",
+    "amount": 494,
+    "category": "Entertainment",
+    "type": "Income",
+    "date": "2024-05-08",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "98",
+    "amount": 343,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-05-10",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "99",
+    "amount": 470,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2024-05-11",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "100",
+    "amount": 271,
+    "category": "Entertainment",
+    "type": "Income",
+    "date": "2024-05-13",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "101",
+    "amount": 438,
+    "category": "Entertainment",
+    "type": "Income",
+    "date": "2024-05-16",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "102",
+    "amount": -222,
+    "category": "Freelance",
+    "type": "Expense",
+    "date": "2024-05-19",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "103",
+    "amount": -194,
+    "category": "Rent",
+    "type": "Expense",
+    "date": "2024-05-22",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "104",
+    "amount": 124,
+    "category": "Entertainment",
+    "type": "Income",
+    "date": "2024-05-25",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "105",
+    "amount": 459,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-05-26",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "106",
+    "amount": -84,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-05-29",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "107",
+    "amount": 494,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-05-31",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "108",
+    "amount": -459,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-06-02",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "109",
+    "amount": 368,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-06-04",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "110",
+    "amount": -121,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-06-06",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "111",
+    "amount": 334,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-06-07",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "112",
+    "amount": 58,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2024-06-10",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "113",
+    "amount": -328,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-06-13",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "114",
+    "amount": -434,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2024-06-16",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "115",
+    "amount": 68,
+    "category": "Freelance",
+    "type": "Income",
+    "date": "2024-06-19",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "116",
+    "amount": 173,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2024-06-20",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "117",
+    "amount": -446,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2024-06-22",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "118",
+    "amount": 101,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-06-24",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "119",
+    "amount": -209,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-06-26",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "120",
+    "amount": -227,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-06-27",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "121",
+    "amount": -486,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-06-28",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "122",
+    "amount": 315,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-06-30",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "123",
+    "amount": 349,
+    "category": "Freelance",
+    "type": "Income",
+    "date": "2024-07-01",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "124",
+    "amount": -121,
+    "category": "Rent",
+    "type": "Expense",
+    "date": "2024-07-04",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "125",
+    "amount": -386,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-07-06",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "126",
+    "amount": -193,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-07-08",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "127",
+    "amount": -81,
+    "category": "Rent",
+    "type": "Expense",
+    "date": "2024-07-10",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "128",
+    "amount": -54,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-07-12",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "129",
+    "amount": 405,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-07-13",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "130",
+    "amount": -140,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-07-14",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "131",
+    "amount": -308,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-07-15",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "132",
+    "amount": 429,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-07-17",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "133",
+    "amount": -437,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2024-07-19",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "134",
+    "amount": 427,
+    "category": "Rent",
+    "type": "Income",
+    "date": "2024-07-22",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "135",
+    "amount": 145,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-07-25",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "136",
+    "amount": -294,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-07-26",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "137",
+    "amount": -175,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2024-07-29",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "138",
+    "amount": 79,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-07-30",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "139",
+    "amount": -197,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-08-02",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "140",
+    "amount": 247,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-08-03",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "141",
+    "amount": -97,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-08-05",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "142",
+    "amount": 324,
+    "category": "Rent",
+    "type": "Income",
+    "date": "2024-08-08",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "143",
+    "amount": 249,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-08-10",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "144",
+    "amount": -62,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-08-13",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "145",
+    "amount": -428,
+    "category": "Freelance",
+    "type": "Expense",
+    "date": "2024-08-14",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "146",
+    "amount": -261,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2024-08-16",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "147",
+    "amount": -481,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-08-17",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "148",
+    "amount": -66,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2024-08-18",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "149",
+    "amount": 463,
+    "category": "Entertainment",
+    "type": "Income",
+    "date": "2024-08-19",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "150",
+    "amount": 278,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-08-21",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "151",
+    "amount": 373,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2024-08-23",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "152",
+    "amount": 411,
+    "category": "Entertainment",
+    "type": "Income",
+    "date": "2024-08-25",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "153",
+    "amount": -282,
+    "category": "Freelance",
+    "type": "Expense",
+    "date": "2024-08-27",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "154",
+    "amount": 220,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-08-30",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "155",
+    "amount": -340,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-09-01",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "156",
+    "amount": 209,
+    "category": "Freelance",
+    "type": "Income",
+    "date": "2024-09-02",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "157",
+    "amount": -468,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2024-09-04",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "158",
+    "amount": -166,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-09-06",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "159",
+    "amount": 266,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-09-09",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "160",
+    "amount": 500,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-09-10",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "161",
+    "amount": -335,
+    "category": "Freelance",
+    "type": "Expense",
+    "date": "2024-09-13",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "162",
+    "amount": 306,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-09-16",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "163",
+    "amount": 379,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-09-17",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "164",
+    "amount": -290,
+    "category": "Freelance",
+    "type": "Expense",
+    "date": "2024-09-18",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "165",
+    "amount": -495,
+    "category": "Freelance",
+    "type": "Expense",
+    "date": "2024-09-19",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "166",
+    "amount": -497,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2024-09-21",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "167",
+    "amount": -79,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2024-09-22",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "168",
+    "amount": 303,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-09-23",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "169",
+    "amount": -196,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2024-09-24",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "170",
+    "amount": 362,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2024-09-26",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "171",
+    "amount": 334,
+    "category": "Freelance",
+    "type": "Income",
+    "date": "2024-09-28",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "172",
+    "amount": -206,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-10-01",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "173",
+    "amount": 404,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-10-03",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "174",
+    "amount": -90,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2024-10-05",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "175",
+    "amount": -77,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2024-10-07",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "176",
+    "amount": -214,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-10-10",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "177",
+    "amount": -107,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-10-11",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "178",
+    "amount": -53,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2024-10-13",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "179",
+    "amount": -310,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-10-16",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "180",
+    "amount": 497,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-10-17",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "181",
+    "amount": -288,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2024-10-18",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "182",
+    "amount": 247,
+    "category": "Entertainment",
+    "type": "Income",
+    "date": "2024-10-21",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "183",
+    "amount": -231,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-10-24",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "184",
+    "amount": 482,
+    "category": "Entertainment",
+    "type": "Income",
+    "date": "2024-10-26",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "185",
+    "amount": -357,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-10-29",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "186",
+    "amount": 273,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-11-01",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "187",
+    "amount": 240,
+    "category": "Rent",
+    "type": "Income",
+    "date": "2024-11-02",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "188",
+    "amount": 493,
+    "category": "Food",
+    "type": "Income",
+    "date": "2024-11-05",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "189",
+    "amount": 419,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-11-06",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "190",
+    "amount": -187,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-11-08",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "191",
+    "amount": 220,
+    "category": "Rent",
+    "type": "Income",
+    "date": "2024-11-11",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "192",
+    "amount": -399,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2024-11-13",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "193",
+    "amount": -324,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2024-11-14",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "194",
+    "amount": 462,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-11-17",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "195",
+    "amount": 280,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2024-11-18",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "196",
+    "amount": -469,
+    "category": "Freelance",
+    "type": "Expense",
+    "date": "2024-11-21",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "197",
+    "amount": -229,
+    "category": "Rent",
+    "type": "Expense",
+    "date": "2024-11-24",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "198",
+    "amount": 91,
+    "category": "Rent",
+    "type": "Income",
+    "date": "2024-11-27",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "199",
+    "amount": -461,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2024-11-28",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "200",
+    "amount": 89,
+    "category": "Other",
+    "type": "Income",
+    "date": "2024-11-29",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "201",
+    "amount": 171,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2024-11-30",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "202",
+    "amount": -450,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-12-03",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "203",
+    "amount": -261,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-12-06",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "204",
+    "amount": 455,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-12-09",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "205",
+    "amount": -326,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-12-11",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "206",
+    "amount": -466,
+    "category": "Rent",
+    "type": "Expense",
+    "date": "2024-12-13",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "207",
+    "amount": 488,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-12-14",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "208",
+    "amount": 191,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-12-16",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "209",
+    "amount": -50,
+    "category": "Entertainment",
+    "type": "Expense",
+    "date": "2024-12-19",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "210",
+    "amount": 78,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2024-12-21",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "211",
+    "amount": -476,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2024-12-23",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "212",
+    "amount": 376,
+    "category": "Entertainment",
+    "type": "Income",
+    "date": "2024-12-25",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "213",
+    "amount": 225,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2024-12-27",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "214",
+    "amount": -485,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2024-12-29",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "215",
+    "amount": -179,
+    "category": "Other",
+    "type": "Expense",
+    "date": "2024-12-30",
+    "comment": "Other transaction"
+  },
+  {
+    "id": "216",
+    "amount": 329,
+    "category": "Entertainment",
+    "type": "Income",
+    "date": "2025-01-02",
+    "comment": "Entertainment transaction"
+  },
+  {
+    "id": "217",
+    "amount": -247,
+    "category": "Transport",
+    "type": "Expense",
+    "date": "2025-01-05",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "218",
+    "amount": 244,
+    "category": "Transport",
+    "type": "Income",
+    "date": "2025-01-08",
+    "comment": "Transport transaction"
+  },
+  {
+    "id": "219",
+    "amount": 102,
+    "category": "Freelance",
+    "type": "Income",
+    "date": "2025-01-10",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "220",
+    "amount": -191,
+    "category": "Freelance",
+    "type": "Expense",
+    "date": "2025-01-13",
+    "comment": "Freelance transaction"
+  },
+  {
+    "id": "221",
+    "amount": 96,
+    "category": "Salary",
+    "type": "Income",
+    "date": "2025-01-14",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "222",
+    "amount": -316,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2025-01-15",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "223",
+    "amount": -495,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2025-01-18",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "224",
+    "amount": -495,
+    "category": "Food",
+    "type": "Expense",
+    "date": "2025-01-19",
+    "comment": "Food transaction"
+  },
+  {
+    "id": "225",
+    "amount": 241,
+    "category": "Rent",
+    "type": "Income",
+    "date": "2025-01-22",
+    "comment": "Rent transaction"
+  },
+  {
+    "id": "226",
+    "amount": -207,
+    "category": "Salary",
+    "type": "Expense",
+    "date": "2025-01-24",
+    "comment": "Salary transaction"
+  },
+  {
+    "id": "227",
+    "amount": 499,
+    "category": "Rent",
+    "type": "Income",
+    "date": "2025-01-26",
+    "comment": "Rent transaction"
+  }
 ]

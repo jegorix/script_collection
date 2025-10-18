@@ -1,0 +1,26 @@
+[
+    {
+        "id": "7d7b02b3-060a-4c53-8061-173a30690459",
+        "amount": 500.0,
+        "category": "Food",
+        "type": "Expense",
+        "date": "2025-10-19T00:50:14.921939",
+        "comment": "kfc"
+    },
+    {
+        "id": "7c21fa17-e94f-44d7-8f6c-4191e461097e",
+        "amount": 500.0,
+        "category": "Salary",
+        "type": "Income",
+        "date": "2025-10-19T00:52:26.186474",
+        "comment": "promotion"
+    },
+    {
+        "id": "30f28130-80ad-410c-a3ff-f2ec6e17124e",
+        "amount": -500.0,
+        "category": "Rent",
+        "type": "Expense",
+        "date": "2025-10-19T00:54:36.284014",
+        "comment": ""
+    }
+]

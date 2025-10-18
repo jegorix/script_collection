@@ -2,6 +2,7 @@ from services.storage import transaction_to_dataframe, load_transaction_json
 from pathlib import Path
 from services.analytics import Analytics
 from services.visualization import Visualization
+from loguru import logger
 
 file = Path("data/test.json")
 
@@ -19,7 +20,12 @@ try:
         print(df_data, end='\n\n')
         print("Total Balance: ", Analytics.total_balance(df_data), end='\n\n')
         df_expences_by_category = Analytics.expences_by_category(df_data)
-        print(f"Expences by category: {df_expences_by_category}")
+        
+        logger.info(f"Expences by category: {df_expences_by_category}")
+        
+        # print(f"Expences by category: {df_expences_by_category}")
+        Visualization.heatmap_expenses_by_day_hour(df_data)
+        Visualization.scatter_expense_vs_income(df_data)
         Visualization.stacked_monthly_income_expense(df_data)
         Visualization.boxplot_expenses(df_data)
         Visualization.pie_expenses(df_data)

@@ -9,6 +9,7 @@ DATA_FILE = Path("data/data.json")
 
 def load_transaction_json(file_path: Path = DATA_FILE) -> List[Transaction]:
     if not file_path.exists():
+        file_path.write_text("[]", encoding='utf-8')
         return []
     
     with file_path.open("r", encoding="utf-8") as file:
