@@ -4,10 +4,12 @@ from typing import List
 import pandas as pd
 from models import AppUsageSchema, AppUsage 
 from loguru import logger
+from analytics import Analytics
 
 
 DATA_FILE = Path("./app_usage_tracker/data/data.json")
 LOG_FILE = Path("./app_usage_tracker/logs/logs.json")
+TEST_FILE = Path("./app_usage_tracker/data/test.json")
 
 logger.add(LOG_FILE, format="{time} {level} {message}",
            level="DEBUG", rotation="1 MB", compression="zip")
@@ -67,19 +69,24 @@ def app_usage_data_to_dataframe(app_usage_list: List[AppUsage]) -> pd.DataFrame:
     
     
 if __name__ == "__main__":
-    from datetime import datetime
-    from models import Category
+    pass
+#     from datetime import datetime
+#     from models import Category
     
-    schema = AppUsageSchema(
-    app='Telegram',
-    category=Category("Social"),
-    minutes=20,
-    date=datetime.now(),
-    comment="Some comment"
-)
-    transaction = schema.to_app_usage()
-    save_app_usage_json([transaction])
-    data = load_app_usage_json()
-    print(data)
-    df_data = app_usage_data_to_dataframe(data)
-    print(df_data)
+# #     schema = AppUsageSchema(
+# #     app='Telegram',
+# #     category=Category("Social"),
+# #     minutes=20,
+# #     date=datetime.now(),
+# #     comment="Some comment"
+# # )
+# #     transaction = schema.to_app_usage()
+# #     save_app_usage_json([transaction])
+
+#     data = load_app_usage_json(TEST_FILE)
+#     # print(data)
+#     df_data = app_usage_data_to_dataframe(data)
+#     print(df_data, end="\n\n")
+#     print(Analytics.total_usage_minutes(df_data))
+#     print(Analytics.most_used_app(df_data))
+#     print(Analytics.daily_usage(df_data))
