@@ -2,6 +2,7 @@ from datetime import datetime
 from models import Category
 from storage import load_app_usage_json, TEST_FILE, app_usage_data_to_dataframe
 from analytics import Analytics
+from visualization import Visualization
 
 #     schema = AppUsageSchema(
 #     app='Telegram',
@@ -26,3 +27,9 @@ print(Analytics.average_daily_usage(df_data))
 print(Analytics.top_n_apps(df_data))
 print(Analytics.weekly_trend(df_data))
 print(Analytics.category_precentage(df_data))
+
+
+Visualization.plot_usage_by_category(df_data)
+Visualization.plot_daily_usage(df_data)
+Visualization.plot_usage_by_hour(df_data)
+Visualization.plot_last_week_trend(df_data)

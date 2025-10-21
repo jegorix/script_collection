@@ -148,6 +148,18 @@ class Visualization:
         plt.ylabel("Hour of Day")
         plt.show()
         
+        # BARPLOT
+    # @staticmethod
+    # def plot_usage_by_category(df: pd.DataFrame) -> None:
+    #     data = df.groupby('category')['minutes'].sum().sort_values(ascending=True)
+    #     plt.figure(figsize=(8, 5))
+    #     sns.barplot(x=data.values, y=data.index, palette='mako')
+    #     plt.title("App Usage by Category")
+    #     plt.xlabel("Minutes")
+    #     plt.ylabel("Category")
+    #     plt.tight_layout()
+    #     plt.show()
+        
     
 
 if __name__ == '__main__':
