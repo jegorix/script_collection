@@ -84,7 +84,7 @@ def show_analytics(transactions: List[Transaction]) -> None:
 def show_visualizations(transactions: List[Transaction]) -> None:
     df = transaction_to_dataframe(transactions)
     
-    print("\nChoose visualization:")
+    print("\nChoose visualization: ")
     print("1. Expenses by category")
     print("2. Incomes by category")
     print("3. Balance over time")

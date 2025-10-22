@@ -89,6 +89,7 @@ class Visualization:
         
     @staticmethod
     def usage_by_day_of_week(df: pd.DataFrame):
+        """App usage by week of day"""
         df['weekday'] = df['date'].dt.day_name()
         data = df.groupby(df["weekday"])["minutes"].sum(numeric_only=True)
         plt.figure(figsize=(8,5))
